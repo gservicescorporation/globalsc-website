@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #fafafa;
+  --color-background-secondary: #f3f7fd;
+  --color-main: #242565;
+  --color-primary: #0e1628;
+  --color-secondary: #f3f7fd;
+  --color-tertiary: #5c5c5c;
+  --color-accent: #51b7ff;
+  --color-event: #0049af;
+  --color-input: #4d5fc3;
+}
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-family: var(--font-poppins);
+}
+
+.btn-primary {
+  @apply bg-primary text-white font-semibold py-2 px-6 rounded-md lg:flex justify-center items-center gap-2 border border-primary hover:bg-transparent hover:text-main transition-colors duration-300;
+}
+
+.btn-secondary {
+  @apply bg-none text-white font-semibold py-2 px-6 rounded-md lg:flex items-center gap-2 border border-white hover:bg-white hover:text-main transition-colors duration-300 max-lg:text-sm max-lg:px-4 max-lg:py-2;
+}
+
+.btn-tertiary {
+  @apply bg-white text-main font-semibold py-2 px-6 rounded-md lg:flex items-center gap-2 hover:bg-transparent border border-white hover:text-white transition-colors duration-300;
+}
+
+.btn-quaternary {
+  @apply bg-none text-main font-semibold py-2 px-6 rounded-md lg:flex items-center gap-2 border border-main hover:bg-main hover:text-white transition-colors duration-300;
+}
+
+.input-form {
+  @apply placeholder:font-medium bg-white px-4 py-4 rounded-md outline-none;
+}
+
+.input-label {
+  @apply flex flex-col gap-2;
+}
+
+.input-blur {
+  @apply bg-white/20 px-4 py-3 rounded-md outline-none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.custom-next.swiper-button-next,
+.custom-prev.swiper-button-prev {
+  &:hover {
+    @apply bg-main/50 text-white;
+  }
+}
+
+.swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  &:hover {
+    @apply bg-main text-white;
+  }
+}

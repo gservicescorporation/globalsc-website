@@ -1,0 +1,45 @@
+{
+	"name": "globalsc-website-v2",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build --turbopack",
+		"postbuild": "next-sitemap",
+		"start": "next start",
+		"lint": "eslint"
+	},
+	"dependencies": {
+		"@react-email/components": "^1.0.7",
+		"@react-email/render": "^2.0.4",
+		"axios": "^1.12.2",
+		"framer-motion": "^12.23.13",
+		"lucide-react": "^0.544.0",
+		"next": "15.5.3",
+		"next-sitemap": "^4.2.3",
+		"pg": "^8.17.2",
+		"react": "19.1.0",
+		"react-countup": "^6.5.3",
+		"react-dom": "19.1.0",
+		"react-hook-form": "^7.65.0",
+		"react-phone-input-2": "^2.15.1",
+		"react-toastify": "^11.0.5",
+		"reflect-metadata": "^0.2.2",
+		"resend": "^6.9.1",
+		"swiper": "^12.0.1",
+		"typeorm": "^0.3.28"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^25.0.10",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "15.5.3",
+		"tailwindcss": "^4",
+		"ts-node": "^10.9.2",
+		"typeorm-ts-node-commonjs": "^0.3.20",
+		"typescript": "^5"
+	}
+}

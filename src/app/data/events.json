@@ -1,0 +1,2752 @@
+{
+  "events": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "category": "Seminários",
+      "coverUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg",
+        "primary": "#0049AFcc",
+        "secondary": "#a5b8d6cc"
+      },
+      "event": {
+        "title": "Seminário para os Efectivos do SME alusivo ao 45º Aniversário",
+        "description": "No âmbito das comemorações do 45º aniversário do Serviço de Migração e Estrangeiros (SME), a instituição promoveu um conjunto de sessões de formação e treinamento voltadas para o desenvolvimento das competências de chefia, liderança e gestão de equipas entre os seus efetivos. A iniciativa teve como principal objetivo fortalecer as capacidades técnicas e humanas dos quadros do SME, promovendo uma cultura organizacional mais colaborativa, eficiente e orientada para resultados. Durante as sessões, foram abordados temas essenciais da liderança moderna, tais como motivação de equipas, gestão de conflitos, comunicação assertiva, inteligência emocional e tomada de decisão estratégica.",
+        "startDate": "2025-12-18",
+        "location": "Epic Sana, Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/2.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/3.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/4.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/5.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/6.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/7.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme/8.jpeg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/6.jpeg",
+        "description": "No âmbito das comemorações do 45º aniversário do Serviço de Migração e Estrangeiros (SME), a instituição promoveu um conjunto de sessões de formação e treinamento voltadas para o desenvolvimento das competências de chefia, liderança e gestão de equipas entre os seus efetivos. A iniciativa teve como principal objetivo fortalecer as capacidades técnicas e humanas dos quadros do SME, promovendo uma cultura organizacional mais colaborativa, eficiente e orientada para resultados. Durante as sessões, foram abordados temas essenciais da liderança moderna, tais como motivação de equipas, gestão de conflitos, comunicação assertiva, inteligência emocional e tomada de decisão estratégica."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 50
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 50
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 50
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 50
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/seminario-sme/sme-place.png",
+          "https://ik.imagekit.io/globalsc/seminario-sme/sme-place-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655445432",
+      "category": "Seminários",
+      "coverUrl": "https://ik.imagekit.io/globalsc/forum-sme/5.jpeg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/forum-sme/5.jpeg",
+        "primary": "#0049AFcc",
+        "secondary": "#a5b8d6cc"
+      },
+      "event": {
+        "title": "Iº Fórum do SME Sobre Educação Patriotica",
+        "description": "O Serviço de Migração e Estrangeiros (SME) realizou com sucesso o Iº Fórum sobre Educação Patriótica, um encontro que reuniu dirigentes, oficiais, agentes e colaboradores da instituição, com o propósito de reforçar os valores de cidadania, ética, disciplina e amor à pátria no exercício das suas funções. Durante o evento, foram abordados temas ligados à identidade nacional, ao respeito pelos símbolos do Estado, à responsabilidade institucional e ao papel do SME na consolidação da soberania e segurança nacional. Fórum contou com palestras inspiradoras, debates e momentos de reflexão coletiva, que destacaram a importância da formação moral e cívica como base para um serviço público mais íntegro, eficiente e comprometido com Angola e com os cidadãos.",
+        "startDate": "2025-11-09",
+        "location": "Epic Sana, Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/forum-sme/1.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/2.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/3.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/4.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/5.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/6.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/7.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/8.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/9.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/10.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/11.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/12.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/13.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/14.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/15.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/16.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/17.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/18.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/19.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/20.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/21.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/22.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/23.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/24.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/25.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/26.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-sme/27.mp4"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/forum-sme/1.jpeg",
+        "description": "O Serviço de Migração e Estrangeiros (SME) realizou com sucesso o Iº Fórum sobre Educação Patriótica, um encontro que reuniu dirigentes, oficiais, agentes e colaboradores da instituição, com o propósito de reforçar os valores de cidadania, ética, disciplina e amor à pátria no exercício das suas funções. Durante o evento, foram abordados temas ligados à identidade nacional, ao respeito pelos símbolos do Estado, à responsabilidade institucional e ao papel do SME na consolidação da soberania e segurança nacional. O Fórum contou com palestras inspiradoras, debates e momentos de reflexão coletiva, que destacaram a importância da formação moral e cívica como base para um serviço público mais íntegro, eficiente e comprometido com Angola e com os cidadãos."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/seminario-sme/sme-place.png",
+          "https://ik.imagekit.io/globalsc/seminario-sme/sme-place-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-j902-446655445432",
+      "category": "Seminários",
+      "coverUrl": "https://ik.imagekit.io/globalsc/forum-pna/1.jpeg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/forum-pna/1.jpeg",
+        "primary": "#0049AFcc",
+        "secondary": "#a5b8d6cc"
+      },
+      "event": {
+        "title": "Iº Fórum Sobre Liderança e Desenvolvimento de Pessoas da PNA",
+        "description": "A Polícia Nacional de Angola (PNA) realizou com êxito o Iº Fórum sobre Liderança e Desenvolvimento de Pessoas, um evento que reuniu oficiais superiores, chefes de departamento, formadores e especialistas em gestão de pessoas com o objetivo de refletir sobre o papel da liderança na modernização e humanização das forças de segurança. Durante o encontro, foram debatidos temas essenciais ligados à motivação, ética profissional, gestão de equipas, inovação institucional e valorização do capital humano, reforçando a importância de uma liderança baseada em exemplo, disciplina e propósito. O Fórum destacou-se pela qualidade das intervenções e pelo ambiente de partilha e aprendizagem, promovendo uma nova visão sobre o desenvolvimento de competências no seio da PNA e o fortalecimento da sua missão de servir e proteger com excelência.",
+        "startDate": "2023-02-14",
+        "location": "Ministério do Interior, Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/forum-pna/1.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-pna/2.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-pna/3.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-pna/4.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-pna/5.jpeg",
+          "https://ik.imagekit.io/globalsc/forum-pna/6.jpeg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/forum-pna/3.jpeg",
+        "description": "A Polícia Nacional de Angola (PNA) realizou com êxito o Iº Fórum sobre Liderança e Desenvolvimento de Pessoas, um evento que reuniu oficiais superiores, chefes de departamento, formadores e especialistas em gestão de pessoas com o objetivo de refletir sobre o papel da liderança na modernização e humanização das forças de segurança. Durante o encontro, foram debatidos temas essenciais ligados à motivação, ética profissional, gestão de equipas, inovação institucional e valorização do capital humano, reforçando a importância de uma liderança baseada em exemplo, disciplina e propósito. O Fórum destacou-se pela qualidade das intervenções e pelo ambiente de partilha e aprendizagem, promovendo uma nova visão sobre o desenvolvimento de competências no seio da PNA e o fortalecimento da sua missão de servir e proteger com excelência."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/seminario-sme/sme-place.png",
+          "https://ik.imagekit.io/globalsc/seminario-sme/sme-place-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-746575445432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/baw-fev-2023/15.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-fev-2023/15.jpg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Business After Work - Fevereiro de 2023",
+        "description": "O Business After Work reuniu empresários, executivos e profissionais de diversos setores num ambiente elegante e descontraído, promovendo networking de alto nível, troca de experiências e novas oportunidades de negócio. Organizado pela Global Services Corporation, o encontro proporcionou um espaço exclusivo para fortalecer relações empresariais, discutir tendências do mercado angolano e incentivar parcerias estratégicas entre empresas públicas e privadas. A noite foi marcada por momentos de convivência, apresentações inspiradoras e conversas produtivas, que reforçaram o propósito do Business After Work: conectar líderes visionários e impulsionar o crescimento sustentável do ecossistema empresarial em Angola.",
+        "startDate": "2023-02-15",
+        "location": "Bessangana - Ilha de Luanda",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/1.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/2.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/3.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/4.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/5.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/6.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/7.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/8.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/9.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/10.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/11.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/12.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/13.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/14.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/15.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/16.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/17.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/18.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/19.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/20.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/21.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/22.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/23.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/24.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/25.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/26.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/27.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-fev-2023/27.jpg",
+        "description": "O Business After Work – Fevereiro de 2023 reuniu empresários, executivos e profissionais de diversos setores num ambiente elegante e descontraído, promovendo networking de alto nível, troca de experiências e novas oportunidades de negócio. Organizado pela Global Services Corporation, o encontro proporcionou um espaço exclusivo para fortalecer relações empresariais, discutir tendências do mercado angolano e incentivar parcerias estratégicas entre empresas públicas e privadas. A noite foi marcada por momentos de convivência, apresentações inspiradoras e conversas produtivas, que reforçaram o propósito do Business After Work: conectar líderes visionários e impulsionar o crescimento sustentável do ecossistema empresarial em Angola."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e8400-d556-41d4-a716-746575445432",
+      "category": "Social",
+      "coverUrl": "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/29.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/29.jpg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Responsabilidade Social - VIANA SEM MALÁRIA",
+        "description": "O Business After Work – Fevereiro de 2023 reuniu empresários, executivos e profissionais de diversos setores num ambiente elegante e descontraído, promovendo networking de alto nível, troca de experiências e novas oportunidades de negócio. Organizado pela Global Services Corporation, o encontro proporcionou um espaço exclusivo para fortalecer relações empresariais, discutir tendências do mercado angolano e incentivar parcerias estratégicas entre empresas públicas e privadas. A noite foi marcada por momentos de convivência, apresentações inspiradoras e conversas produtivas, que reforçaram o propósito do Business After Work: conectar líderes visionários e impulsionar o crescimento sustentável do ecossistema empresarial em Angola.",
+        "startDate": "2023-04-23",
+        "location": "Viana, Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/1.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/2.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/3.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/4.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/5.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/6.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/7.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/8.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/9.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/10.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/11.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/12.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/13.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/14.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/15.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/16.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/17.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/18.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/19.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/20.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/21.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/22.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/23.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/24.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/25.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/26.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/27.jpg",
+          "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/29.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/responsabilidade-social-viana/22.jpg",
+        "description": "O Business After Work – Fevereiro de 2023 reuniu empresários, executivos e profissionais de diversos setores num ambiente elegante e descontraído, promovendo networking de alto nível, troca de experiências e novas oportunidades de negócio. Organizado pela Global Services Corporation, o encontro proporcionou um espaço exclusivo para fortalecer relações empresariais, discutir tendências do mercado angolano e incentivar parcerias estratégicas entre empresas públicas e privadas. A noite foi marcada por momentos de convivência, apresentações inspiradoras e conversas produtivas, que reforçaram o propósito do Business After Work: conectar líderes visionários e impulsionar o crescimento sustentável do ecossistema empresarial em Angola."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e6000-e29b-41d4-a716-746000045432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/27.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/27.jpg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Mesa Redonda com CEOs – A Nova Era da Liderança Empresarial",
+        "description": "A Mesa Redonda com CEOs – A Nova Era da Liderança reuniu altos executivos, empresários e gestores de destaque num ambiente de diálogo estratégico sobre os novos paradigmas da liderança no contexto empresarial contemporâneo. Promovido pela Global Services Corporation, o evento proporcionou um espaço de reflexão, networking e partilha de experiências, abordando temas como inovação, transformação digital, gestão de pessoas e liderança ética como pilares para o crescimento sustentável das organizações. Durante a mesa redonda, os participantes debateram os desafios e oportunidades da nova geração de líderes, destacando a importância da visão humanizada, da adaptabilidade e da responsabilidade social corporativa como diferenciais competitivos no mercado atual.",
+        "startDate": "2023-07-26",
+        "location": "Bessangana - Ilha de Luanda, Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/1.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/18.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/19.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/21.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/23.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/24.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/25.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/26.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/27.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/28.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/29.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/30.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/31.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-nova-era-da-lideranca/19.jpg",
+        "description": "A Mesa Redonda com CEOs – A Nova Era da Liderança reuniu altos executivos, empresários e gestores de destaque num ambiente de diálogo estratégico sobre os novos paradigmas da liderança no contexto empresarial contemporâneo. Promovido pela Global Services Corporation, o evento proporcionou um espaço de reflexão, networking e partilha de experiências, abordando temas como inovação, transformação digital, gestão de pessoas e liderança ética como pilares para o crescimento sustentável das organizações. Durante a mesa redonda, os participantes debateram os desafios e oportunidades da nova geração de líderes, destacando a importância da visão humanizada, da adaptabilidade e da responsabilidade social corporativa como diferenciais competitivos no mercado atual."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e1092-e29b-41d4-a716-746000045432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/mr-nov-2023/39.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-nov-2023/39.jpg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Mesa Redonda com CEOs – O Líder do Futuro",
+        "description": "A Mesa Redonda com CEOs – O Líder do Futuro reuniu líderes empresariais, executivos e visionários para uma reflexão profunda sobre os novos desafios e competências que definirão a liderança nas próximas décadas. Promovido pela Global Services Corporation, o encontro destacou-se como um espaço de debate estratégico e partilha de experiências, explorando temas como inovação, sustentabilidade, inteligência emocional, tecnologia e liderança humanizada. Durante o evento, os participantes analisaram como o cenário global e digital está transformando o papel do líder, enfatizando a importância da agilidade, da visão inspiradora e da capacidade de adaptação como elementos essenciais para conduzir equipas e organizações rumo ao futuro.",
+        "startDate": "2023-11-30",
+        "location": "HCTA - Hotel de Convenções de Talatona",
+        "images": [
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/1.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/2.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/3.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/4.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/5.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/6.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/7.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/8.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/9.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/10.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/11.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/12.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/13.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/14.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/15.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/16.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/17.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/18.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/19.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/20.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/21.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/22.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/24.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/25.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/26.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/27.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/28.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/29.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/30.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/31.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/32.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/33.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/34.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/35.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/36.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/37.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/38.jpg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2023/39.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-nov-2023/36.jpg",
+        "description": "A Mesa Redonda com CEOs – A Nova Era da Liderança reuniu altos executivos, empresários e gestores de destaque num ambiente de diálogo estratégico sobre os novos paradigmas da liderança no contexto empresarial contemporâneo. Promovido pela Global Services Corporation, o evento proporcionou um espaço de reflexão, networking e partilha de experiências, abordando temas como inovação, transformação digital, gestão de pessoas e liderança ética como pilares para o crescimento sustentável das organizações. Durante a mesa redonda, os participantes debateram os desafios e oportunidades da nova geração de líderes, destacando a importância da visão humanizada, da adaptabilidade e da responsabilidade social corporativa como diferenciais competitivos no mercado atual."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-740002445432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/baw-fev-2024/6.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-fev-2024/6.jpg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Business After Work - Welcome Together",
+        "description": "O Business After Work – Welcome Together marcou o início de uma nova temporada de encontros empresariais e networking estratégico, reunindo líderes, executivos e empreendedores num ambiente elegante, descontraído e propício à criação de conexões de valor. Promovido pela Global Services Corporation, o evento teve como objetivo fortalecer laços profissionais, celebrar novas parcerias e dar as boas-vindas aos participantes e parceiros que fazem parte da rede de negócios promovida pela instituição. Durante o encontro, os convidados desfrutaram de momentos de interação, partilha de experiências e inspiração, num espaço que reforçou o propósito do Business After Work: aproximar pessoas, ideias e oportunidades que impulsionam o crescimento empresarial em Angola.",
+        "startDate": "2024-02-15",
+        "location": "Bessangana - Ilha de Luanda",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/1.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/2.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/3.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/4.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/5.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/6.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/7.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/8.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/9.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/10.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/11.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/12.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/13.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/14.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/15.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/16.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/17.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/18.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/19.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/20.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/21.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/22.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/24.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/25.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/26.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/27.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/28.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/29.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/30.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/31.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/32.jpg",
+          "https://ik.imagekit.io/globalsc/baw-fev-2024/33.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-fev-2024/28.jpg",
+        "description": "O Business After Work – Welcome Together marcou o início de uma nova temporada de encontros empresariais e networking estratégico, reunindo líderes, executivos e empreendedores num ambiente elegante, descontraído e propício à criação de conexões de valor. Promovido pela Global Services Corporation, o evento teve como objetivo fortalecer laços profissionais, celebrar novas parcerias e dar as boas-vindas aos participantes e parceiros que fazem parte da rede de negócios promovida pela instituição. Durante o encontro, os convidados desfrutaram de momentos de interação, partilha de experiências e inspiração, num espaço que reforçou o propósito do Business After Work: aproximar pessoas, ideias e oportunidades que impulsionam o crescimento empresarial em Angola."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e1092-e29b-41d4-a716-992367045432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/mr-edicao-fib/23.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-edicao-fib/19.jpg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Mesa Redonda com CEOs – Edição FIB",
+        "description": "A Mesa Redonda com CEOs – Edição FIB realizou-se com grande sucesso durante a Feira Internacional de Benguela, reunindo líderes empresariais, investidores e representantes institucionais para um debate de alto nível sobre o desenvolvimento económico e a nova dinâmica da liderança em Angola. Organizado pela Global Services Corporation, o evento destacou-se como um espaço privilegiado de networking e partilha de conhecimento, promovendo o diálogo entre setores público e privado sobre temas como inovação, sustentabilidade, responsabilidade corporativa e estratégias de crescimento regional. Durante a mesa redonda, os participantes abordaram as oportunidades de investimento em Benguela e no litoral sul do país, reforçando a importância de uma liderança visionária e colaborativa para impulsionar o ambiente de negócios e a competitividade empresarial.",
+        "startDate": "2024-05-17",
+        "location": "Benguela, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/1.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/2.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/3.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/4.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/5.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/6.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/7.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/8.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/9.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/10.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/11.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/12.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/13.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/14.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/15.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/16.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/17.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/18.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/19.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/20.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/21.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/22.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/24.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/25.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/26.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/27.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/28.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/29.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/30.jpg",
+          "https://ik.imagekit.io/globalsc/mr-edicao-fib/31.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-edicao-fib/18.jpg",
+        "description": "A Mesa Redonda com CEOs – Edição FIB realizou-se com grande sucesso durante a Feira Internacional de Benguela, reunindo líderes empresariais, investidores e representantes institucionais para um debate de alto nível sobre o desenvolvimento económico e a nova dinâmica da liderança em Angola. Organizado pela Global Services Corporation, o evento destacou-se como um espaço privilegiado de networking e partilha de conhecimento, promovendo o diálogo entre setores público e privado sobre temas como inovação, sustentabilidade, responsabilidade corporativa e estratégias de crescimento regional. Durante a mesa redonda, os participantes abordaram as oportunidades de investimento em Benguela e no litoral sul do país, reforçando a importância de uma liderança visionária e colaborativa para impulsionar o ambiente de negócios e a competitividade empresarial."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e9200-e29b-3t45-a716-746575445432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/baw-jul-2024/5.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-jul-2024/3.jpg",
+        "primary": "#001F5Dcc",
+        "secondary": "#FF7A00cc"
+      },
+      "event": {
+        "title": "Business After Work - O Líder Tech",
+        "description": "O Business After Work – O Líder Tech reuniu executivos, empreendedores e especialistas em tecnologia num ambiente moderno e inspirador, para debater o impacto da inovação digital na liderança e no futuro dos negócios em Angola. Promovido pela Global Services Corporation, o evento destacou-se como um ponto de encontro entre o mundo corporativo e o universo tecnológico, incentivando a reflexão sobre o papel do líder na era da transformação digital e as competências necessárias para guiar equipas em tempos de mudança acelerada. Durante o encontro, foram abordados temas como inteligência artificial, automação, cultura digital e inovação estratégica, com palestras, painéis e conversas informais que proporcionaram networking de alto nível e partilha de experiências reais.",
+        "startDate": "2024-06-24",
+        "location": "Hotel Epic Sana - Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/1.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/2.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/3.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/4.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/5.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/6.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/7.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/8.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/9.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/10.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/11.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/12.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/13.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/14.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/15.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/16.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/17.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/18.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/19.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/20.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/21.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/22.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/23.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/24.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/25.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/26.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/27.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jul-2024/28.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-jul-2024/24.jpg",
+        "description": "O Business After Work – O Líder Tech reuniu executivos, empreendedores e especialistas em tecnologia num ambiente moderno e inspirador, para debater o impacto da inovação digital na liderança e no futuro dos negócios em Angola. Promovido pela Global Services Corporation, o evento destacou-se como um ponto de encontro entre o mundo corporativo e o universo tecnológico, incentivando a reflexão sobre o papel do líder na era da transformação digital e as competências necessárias para guiar equipas em tempos de mudança acelerada. Durante o encontro, foram abordados temas como inteligência artificial, automação, cultura digital e inovação estratégica, com palestras, painéis e conversas informais que proporcionaram networking de alto nível e partilha de experiências reais."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e1092-e29b-41d4-a716-800007045432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/mr-nov-2024/29.jpeg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-nov-2024/27.jpeg",
+        "primary": "#0049AFcc",
+        "secondary": "#6592fc00"
+      },
+      "event": {
+        "title": "Mesa Redonda com CEOs – Leadership Innovation in the Oil and Gas Sector",
+        "description": "A Mesa Redonda com CEOs – Leadership Innovation in the Oil and Gas Sector reuniu líderes executivos, especialistas e decisores do setor petrolífero para uma reflexão profunda sobre os novos caminhos da liderança e da inovação na indústria de Petróleo e Gás em Angola. Promovido pela Global Services Corporation, o evento destacou-se como um espaço estratégico de diálogo e partilha de experiências, onde foram debatidas tendências globais, desafios tecnológicos e práticas de gestão inovadoras que estão a transformar o setor energético. Durante o encontro, os CEOs abordaram temas como sustentabilidade, transição energética, digitalização e liderança ética, enfatizando a importância de estratégias colaborativas e de visão de futuro para garantir a competitividade e o crescimento sustentável das empresas angolanas.",
+        "startDate": "2024-11-28",
+        "location": "HCTA - Hotel de Convenções de Talatona",
+        "images": [
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/1.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/2.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/3.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/4.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/5.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/6.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/7.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/8.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/9.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/10.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/11.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/12.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/13.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/14.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/15.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/16.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/17.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/18.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/19.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/20.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/21.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/22.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/23.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/24.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/25.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/26.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/27.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/28.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/29.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/30.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/31.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/32.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/33.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/34.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/35.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/36.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/37.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/38.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/39.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/40.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/41.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/42.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/43.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/44.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/45.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/46.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/47.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/48.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/49.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/50.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/51.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/52.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/53.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/54.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/55.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/56.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/57.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/58.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/59.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-nov-2024/60.jpeg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-nov-2024/39.jpeg",
+        "description": "A Mesa Redonda com CEOs – Edição FIB realizou-se com grande sucesso durante a Feira Internacional de Benguela, reunindo líderes empresariais, investidores e representantes institucionais para um debate de alto nível sobre o desenvolvimento económico e a nova dinâmica da liderança em Angola. Organizado pela Global Services Corporation, o evento destacou-se como um espaço privilegiado de networking e partilha de conhecimento, promovendo o diálogo entre setores público e privado sobre temas como inovação, sustentabilidade, responsabilidade corporativa e estratégias de crescimento regional. Durante a mesa redonda, os participantes abordaram as oportunidades de investimento em Benguela e no litoral sul do país, reforçando a importância de uma liderança visionária e colaborativa para impulsionar o ambiente de negócios e a competitividade empresarial."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e9200-e29b-3t45-a716-746500000432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/baw-jan-2025/10.jpg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-jan-2025/10.jpg",
+        "primary": "#001F5Dcc",
+        "secondary": "#FF7A00cc"
+      },
+      "event": {
+        "title": "Business After Work - Welcome Together 2025",
+        "description": "O Business After Work – Welcome Together 2025 marcou o início de mais um ciclo de conexão, inspiração e oportunidades promovido pela Global Services Corporation, reunindo líderes empresariais, executivos e empreendedores num ambiente de elegância, proximidade e networking de alto nível. O evento teve como propósito celebrar o recomeço das atividades empresariais de 2025, promovendo o reencontro entre parceiros estratégicos, clientes e novos investidores, e reforçando a importância da colaboração e da visão conjunta para impulsionar o crescimento dos negócios em Angola. Durante a noite, os participantes desfrutaram de momentos de partilha, diálogo e integração, num clima de otimismo, inovação e energia positiva, característico do espírito do Business After Work.",
+        "startDate": "2025-01-24",
+        "location": "Hotel Epic Sana - Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/1.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/2.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/3.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/4.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/5.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/6.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/7.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/8.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/9.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/10.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/11.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/12.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/13.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/14.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/15.jpg",
+          "https://ik.imagekit.io/globalsc/baw-jan-2025/16.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/baw-jan-2025/5.jpg",
+        "description": "O Business After Work 2025 – Welcome Together marcou o início de mais um ciclo de conexão, inspiração e oportunidades promovido pela Global Services Corporation, reunindo líderes empresariais, executivos e empreendedores num ambiente de elegância, proximidade e networking de alto nível. O evento teve como propósito celebrar o recomeço das atividades empresariais de 2025, promovendo o reencontro entre parceiros estratégicos, clientes e novos investidores, e reforçando a importância da colaboração e da visão conjunta para impulsionar o crescimento dos negócios em Angola. Durante a noite, os participantes desfrutaram de momentos de partilha, diálogo e integração, num clima de otimismo, inovação e energia positiva, característico do espírito do Business After Work."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "550e8668-e29b-3t45-a716-746500000432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/seminario-sme-2025/11.jpeg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme-2025/6.jpeg",
+        "primary": "#001F5Dcc",
+        "secondary": "#FF7A0000"
+      },
+      "event": {
+        "title": "Seminário Nacional sobre Migrações | Co-Organizador",
+        "description": "Foi com este espírito, que a Global Services Corporation junto da ENAMI “Escola Nacional de Migração” Co-Organizou o I Seminário Nacional Sobre Migrações. A Abertura ofícial do evento em representação de SE Director Geral do SME, Dr. José Baptista Jr., foi feita pelo Director Geral Adjunto SE Comissário de Migração, Dr. Tomé João Kuanga. Da Global Services Corporation, a apresentação foi feita pelo Dr. Tomás Brito Administrador, que em sua explanação, reafirmou o compromisso da Global Services Corporation em contribuir no desenvolvimento das instituições Angolanas, sendo que este evento faz parte de uma visão contida em seu plano estratégico, com o programa Líder do Futuro.",
+        "startDate": "2025-04-15",
+        "location": "Escola Nacional de Migração - ENAMI",
+        "images": [
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/1.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/2.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/3.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/4.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/5.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/6.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/7.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/8.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/9.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/10.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/11.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/12.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/13.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/14.jpeg",
+          "https://ik.imagekit.io/globalsc/seminario-sme-2025/15.jpeg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme-2025/6.jpeg",
+        "description": "Foi com este espírito, que a Global Services Corporation junto da ENAMI “Escola Nacional de Migração” Co-Organizou o I Seminário Nacional Sobre Migrações. A Abertura ofícial do evento em representação de SE Director Geral do SME, Dr. José Baptista Jr., foi feita pelo Director Geral Adjunto SE Comissário de Migração, Dr. Tomé João Kuanga. Da Global Services Corporation, a apresentação foi feita pelo Dr. Tomás Brito Administrador, que em sua explanação, reafirmou o compromisso da Global Services Corporation em contribuir no desenvolvimento das instituições Angolanas, sendo que este evento faz parte de uma visão contida em seu plano estratégico, com o programa Líder do Futuro."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "230o8668-e29b-3t45-a716-746500000432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/feira-empreendedor/5.jpeg",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/feira-empreendedor/3.jpeg",
+        "primary": "#001F5Dcc",
+        "secondary": "#FF7A0000"
+      },
+      "event": {
+        "title": "Feira do Empreendedor de Luanda | Parceiro",
+        "description": "Foi com grande honra e profundo sentido de patriotismo que a Global Services Corporation participou na co-organização da Feira do Empreendedor de Luanda, realizada de 24 a 27 de Abril. A emblemática Baía de Luanda foi o palco de encontro de inúmeros empreendedores, num evento imperdível para todos os que procuram novas oportunidades de negócios, networking e aprendizagem. O evento contou com a presença de distintas personalidades do Executivo Angolano, com especial destaque para Sua Excelência o Ministro de Estado para a Coordenação Económica, Dr. José de Lima Massano, que teve a honra de proferir o discurso de abertura oficial. Empreendedores, investidores e profissionais de diversos setores, marcaram igualmente presença, num ambiente de partilha de experiências e promoção de novas parcerias, impulsionando assim a criação de projetos inovadores. Na qualidade de anfitrião, Sua Excelência Luís Manuel da Fonseca Nunes, Governador Provincial de Luanda, deu as boas-vindas a todos os participantes e incentivou o investimento contínuo na capital do país. Agradecemos, de forma especial, ao Governo da Província de Luanda, pela consideração e pelo convite que muito nos honrou.",
+        "startDate": "2025-04-24",
+        "location": "Baia de Luanda",
+        "images": [
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/1.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/2.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/3.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/4.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/5.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/6.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/7.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/8.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/9.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/10.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/11.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/12.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/13.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/14.jpeg",
+          "https://ik.imagekit.io/globalsc/feira-empreendedor/15.jpeg"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/feira-empreendedor/1.jpeg",
+        "description": "Foi com grande honra e profundo sentido de patriotismo que a Global Services Corporation participou na co-organização da Feira do Empreendedor de Luanda, realizada de 24 a 27 de Abril. A emblemática Baía de Luanda foi o palco de encontro de inúmeros empreendedores, num evento imperdível para todos os que procuram novas oportunidades de negócios, networking e aprendizagem. O evento contou com a presença de distintas personalidades do Executivo Angolano, com especial destaque para Sua Excelência o Ministro de Estado para a Coordenação Económica, Dr. José de Lima Massano, que teve a honra de proferir o discurso de abertura oficial. Empreendedores, investidores e profissionais de diversos setores, marcaram igualmente presença, num ambiente de partilha de experiências e promoção de novas parcerias, impulsionando assim a criação de projetos inovadores. Na qualidade de anfitrião, Sua Excelência Luís Manuel da Fonseca Nunes, Governador Provincial de Luanda, deu as boas-vindas a todos os participantes e incentivou o investimento contínuo na capital do país. Agradecemos, de forma especial, ao Governo da Província de Luanda, pela consideração e pelo convite que muito nos honrou."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
+      "id": "230o8668-e29b-3t45-a716-746666600432",
+      "category": "Networking",
+      "coverUrl": "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/5.png",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/55.png",
+        "primary": "#001F5Dcc",
+        "secondary": "#FF7A0000"
+      },
+      "event": {
+        "title": "Fórum sobre: O Impacto do Sector Financeiro no Conteúdo Local",
+        "description": "O Fórum sobre o Impacto do Sector Financeiro no Conteúdo Local reuniu líderes empresariais, representantes do governo, economistas e executivos do setor bancário para uma discussão estratégica sobre o papel das instituições financeiras no fortalecimento da economia nacional e na promoção do conteúdo local em Angola. Promovido pela Global Services Corporation, o evento destacou-se como uma plataforma de diálogo e partilha de experiências, abordando temas como financiamento de empresas nacionais, inclusão financeira, políticas de crédito, sustentabilidade e inovação nos serviços financeiros. Durante o Fórum, os participantes analisaram como o setor financeiro pode impulsionar a competitividade e a participação das empresas angolanas nas cadeias de valor, reforçando a importância da colaboração entre o sistema bancário, o setor produtivo e as políticas públicas.",
+        "startDate": "2025-07-27",
+        "location": "Baia de Luanda",
+        "images": [
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/1.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/2.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/3.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/4.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/5.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/6.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/7.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/8.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/9.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/12.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/13.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/14.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/15.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/16.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/17.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/20.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/21.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/22.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/23.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/24.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/25.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/26.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/27.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/28.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/29.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/31.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/32.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/36.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/37.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/39.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/44.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/45.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/46.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/48.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/50.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/51.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/52.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/53.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/54.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/55.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/56.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/57.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/58.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/59.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/60.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/65.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/66.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/67.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/70.png",
+          "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/71.png"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/conteudo-local-jul-2025/46.png",
+        "description": "O Fórum sobre o Impacto do Sector Financeiro no Conteúdo Local reuniu líderes empresariais, representantes do governo, economistas e executivos do setor bancário para uma discussão estratégica sobre o papel das instituições financeiras no fortalecimento da economia nacional e na promoção do conteúdo local em Angola. Promovido pela Global Services Corporation, o evento destacou-se como uma plataforma de diálogo e partilha de experiências, abordando temas como financiamento de empresas nacionais, inclusão financeira, políticas de crédito, sustentabilidade e inovação nos serviços financeiros. Durante o Fórum, os participantes analisaram como o setor financeiro pode impulsionar a competitividade e a participação das empresas angolanas nas cadeias de valor, reforçando a importância da colaboração entre o sistema bancário, o setor produtivo e as políticas públicas."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [
+        {
+          "id": "550e9908-e29b-41d4-a716-446667002674",
+          "ticketName": "Standard",
+          "benefits": [
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais"
+          ],
+          "price": 300000
+        },
+        {
+          "id": "550e3324-e29b-41d4-a716-446655442674",
+          "ticketName": "Premium",
+          "benefits": [
+            "Acesso como orador",
+            "Acesso VIP",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 450000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-446655442674",
+          "ticketName": "Gold",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso como orador"
+          ],
+          "price": 650000
+        },
+        {
+          "id": "550e6689-e29b-41d4-a716-498385212931",
+          "ticketName": "Kubassa",
+          "benefits": [
+            "Acesso como orador",
+            "Networking exclusivo",
+            "Materiais oficiais",
+            "Acesso VIP e plenárias",
+            "Acesso como orador"
+          ],
+          "price": 850000
+        }
+      ],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": [
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana.png",
+          "https://ik.imagekit.io/globalsc/baw-fev-2023/bessangana-2.png"
+        ],
+        "address": "Rua da Missão, Luanda, Angola",
+        "phone": "+2449234432123",
+        "email": "email@example.com"
+      },
+      "faqs": {
+        "imgUrl": "/images/plenaria.jpg",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Haverá tradução simultânea?",
+            "answer": "Sim, o evento contará com serviços de tradução para garantir acessibilidade a todos os participantes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    }
+  ]
+}
