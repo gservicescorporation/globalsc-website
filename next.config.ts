@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: "www.youtube.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "www.mesaredonda.globalsc.ao",
+        pathname: "/**",
+      },
     ],
   },
   reactStrictMode: true,
