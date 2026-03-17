@@ -33,7 +33,7 @@ export default function EventsHero() {
       videoUrl: "https://www.youtube.com/embed/_llumWA1rBE?autoplay=1&rel=0",
       color: "from-primary/90 to-[#008db1]/80",
 	  soon: true,
-	  link: "https://mesaredonda.globalsc.ao"
+	  link: "https://www.mesaredonda.globalsc.ao"
     },
     {
       imgUrl: "https://ik.imagekit.io/globalsc/baw-jul-2024/5.jpg",
