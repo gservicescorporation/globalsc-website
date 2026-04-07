@@ -116,18 +116,14 @@ export default function Hero({
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.6 }}>
-                <motion.button
+                <motion.a
+                  href="https://www.mesaredonda.globalsc.ao"
+                  target="_blank"
                   className="btn-tertiary cursor-pointer max-lg:w-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}>
-                  Obter ingressos
-                </motion.button>
-                <motion.button
-                  className="btn-secondary cursor-pointer max-lg:w-full"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}>
-                  Ver agenda
-                </motion.button>
+                 Ver mais
+                </motion.a>
               </motion.div>
             )}
           </motion.div>

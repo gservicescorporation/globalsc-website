@@ -1,6 +1,118 @@
 {
   "events": [
     {
+      "id": "550e8400-e29b-41d4-a716-433390840000",
+      "category": "Fórum",
+      "coverUrl": "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+      "theme": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+        "primary": "#b48a2ccc",
+        "secondary": "#0149a7cc"
+      },
+      "event": {
+        "title": "Mesa Redonda com CEO's - 5ª Edição",
+        "description": "A Mesa Redonda com CEO's - 5ª Edição com o tema: o Papel da Banca e de Outros Agentes do Sistema Financeiro na Mobilização de Financiamento é um espaço estratégico de reflexão, diálogo e partilha de experiências entre decisores públicos, instituições financeiras, investidores, reguladores e especialistas nacionais e internacionais. O evento tem como objectivo analisar o papel da banca comercial, bancos de desenvolvimento, fundos de investimento, seguradoras, fintechs e outros agentes do sistema financeiro na mobilização de recursos para o financiamento da economia real, com enfoque no crescimento sustentável, inclusão financeira, inovação e fortalecimento do sector produtivo.",
+        "startDate": "2026-07-07",
+        "location": "Epic Sana, Luanda, Angola",
+        "images": [
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png"
+        ]
+      },
+      "about": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+        "description": "A Mesa Redonda com CEO's - 5ª Edição com o tema: o Papel da Banca e de Outros Agentes do Sistema Financeiro na Mobilização de Financiamento é um espaço estratégico de reflexão, diálogo e partilha de experiências entre decisores públicos, instituições financeiras, investidores, reguladores e especialistas nacionais e internacionais. O evento tem como objectivo analisar o papel da banca comercial, bancos de desenvolvimento, fundos de investimento, seguradoras, fintechs e outros agentes do sistema financeiro na mobilização de recursos para o financiamento da economia real, com enfoque no crescimento sustentável, inclusão financeira, inovação e fortalecimento do sector produtivo."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": []
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": ["/images/events/ccta-1.png", "/images/events/ccta-2.png"],
+        "address": "Centro de Convenções de Talatona, Luanda, Angola",
+        "phone": "+244941064919",
+        "email": "mesaredondacomceos@globalsc.ao"
+      },
+      "faqs": {
+        "imgUrl": "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+        "questions": [
+          {
+            "question": "O que é a Mesa Redonda com CEOs?",
+            "answer": "Evento exclusivo para reunir CEOs, líderes e executivos, promovendo networking e debates estratégicos num ambiente de alto nível."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "A participação é destinada a CEOs, executivos seniores, líderes de empresas e convidados especiais do setor corporativo."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, no CCTA (Centro de Convenções de Talatona), num espaço reservado e sofisticado, garantindo conforto e privacidade aos participantes."
+          },
+          {
+            "question": "Quais os benefícios de participar?",
+            "answer": "Os participantes terão acesso a insights exclusivos, networking de alto nível, oportunidades de parcerias estratégicas e troca de experiências com outros líderes."
+          },
+          {
+            "question": "Como faço a inscrição?",
+            "answer": "As inscrições podem ser feitas diretamente através da plataforma oficial do evento ou entrando em contacto com a equipa de organização."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, o evento possui vagas limitadas para garantir a exclusividade e qualidade da experiência."
+          },
+          {
+            "question": "Há dress code para o evento?",
+            "answer": "Sim, recomendamos traje formal ou de negócios, condizente com o nível corporativo da Mesa Redonda."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. Por se tratar de um evento exclusivo e reservado, a participação é apenas presencial."
+          }
+        ]
+      }
+    },
+    {
       "id": "550e8400-e29b-41d4-a716-446655440000",
       "category": "Seminários",
       "coverUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg",
@@ -20,7 +132,7 @@
           "https://ik.imagekit.io/globalsc/seminario-sme/3.jpeg",
           "https://ik.imagekit.io/globalsc/seminario-sme/4.jpeg",
           "https://ik.imagekit.io/globalsc/seminario-sme/5.jpeg",
-          "https://ik.imagekit.io/globalsc/seminario-sme/6.jpeg",
+          "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
           "https://ik.imagekit.io/globalsc/seminario-sme/7.jpeg",
           "https://ik.imagekit.io/globalsc/seminario-sme/8.jpeg"
         ]
@@ -177,7 +289,7 @@
       "event": {
         "title": "Iº Fórum do SME Sobre Educação Patriotica",
         "description": "O Serviço de Migração e Estrangeiros (SME) realizou com sucesso o Iº Fórum sobre Educação Patriótica, um encontro que reuniu dirigentes, oficiais, agentes e colaboradores da instituição, com o propósito de reforçar os valores de cidadania, ética, disciplina e amor à pátria no exercício das suas funções. Durante o evento, foram abordados temas ligados à identidade nacional, ao respeito pelos símbolos do Estado, à responsabilidade institucional e ao papel do SME na consolidação da soberania e segurança nacional. Fórum contou com palestras inspiradoras, debates e momentos de reflexão coletiva, que destacaram a importância da formação moral e cívica como base para um serviço público mais íntegro, eficiente e comprometido com Angola e com os cidadãos.",
-        "startDate": "2025-11-09",
+        "startDate": "2022-11-09",
         "location": "Epic Sana, Luanda, Angola",
         "images": [
           "https://ik.imagekit.io/globalsc/forum-sme/1.jpeg",

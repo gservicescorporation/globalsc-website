@@ -40,7 +40,7 @@ export default function FAQ({
           transition: { duration: 0.8, staggerChildren: 0.3 },
         },
       }}
-      className="min-h-150 w-full bg-cover px-8 py-16 flex flex-col max-lg:gap-12 justify-center items-center max-lg:px-6"
+      className="min-h-200 w-full bg-cover px-8 py-16 flex flex-col max-lg:gap-12 justify-center items-center max-lg:px-6"
       style={{
         backgroundImage: `linear-gradient(to right, ${primary}, ${secondary}), url(${imgUrl})`,
         backgroundSize: "cover",

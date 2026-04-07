@@ -8,31 +8,24 @@ import "swiper/css/effect-fade";
 export default function LandingHero() {
   const heroItems = [
     {
-      title: "Excelência Corporativa ao Serviço do Futuro de Angola",
+      title: "Mesa Redonda com CEO's - 5ª Edição",
       description:
-        "Soluções integradas em seguros, eventos e formação para impulsionar o seu sucesso.",
-      image: "/images/conference.jpg",
-      link: "",
+        "O Papel da Banca e de Outros Agentes do Sistema Financeiro na Mobilização de Financiamento",
+      image: "https://ik.imagekit.io/globalsc/mr-jul-2026/second-banner.png",
+      link: "https://www.mesaredonda.globalsc.ao",
     },
     {
-      title: "Receba as melhores propostas de seguro para si e a sua empresa.",
+      title: "LOCAL CONTENT MAGAZINE",
       description:
-        "Somos a ponte entre si e as seguradoras, assegurando as melhores soluções para proteger o que mais importa.",
-      image: "/images/consulting-clients.jpg",
-      link: "",
+        "A Local Content Magazine é uma publicação editorial de alta qualidade dedicada a apresentar os líderes, empresas e iniciativas que impulsionam o crescimento econômico e fortalecem o ecossistema local. ",
+      image: "https://ik.imagekit.io/globalsc/mr-jul-2026/banner-lcm.png",
+      link: "https://www.mesaredonda.globalsc.ao/magazine",
     },
     {
       title: "Criamos Experiências Inesquecíveis e Eventos que Fazem História",
       description:
         "Transformamos ideias em eventos marcantes que fortalecem marcas e conectam pessoas.",
       image: "/images/corporate-event.jpg",
-      link: "",
-    },
-    {
-      title: "Formação que Inspira, Transforma e Constrói Novos Líderes",
-      description:
-        "Cursos práticos e estratégicos para desenvolver talentos e preparar líderes do futuro.",
-      image: "/images/plenaria.jpg",
       link: "",
     },
   ];
@@ -44,7 +37,7 @@ export default function LandingHero() {
         slidesPerView={1}
         loop={true}
         effect="fade"
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 10000, disableOnInteraction: false }}
         className="h-screen w-full"
         modules={[Autoplay, EffectFade]}>
         {heroItems.map((item, index) => (
@@ -73,6 +66,7 @@ export default function LandingHero() {
                     <div className="flex items-center gap-4 mt-6 max-lg:mt-4">
                       <Link
                         href={item.link}
+                         target="_blank"
                         className="btn-secondary ">
                         Saiba mais
                       </Link>

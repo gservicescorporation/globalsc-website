@@ -90,7 +90,7 @@ export default function EventPage({
           />
         )}
 
-        {!eventPassed && (
+       {/*  {!eventPassed && (
           <WhySign
             primary={eventData.theme.primary}
             secondary={eventData.theme.secondary}
@@ -98,7 +98,7 @@ export default function EventPage({
             subtitle={eventData.whySign.subtitle}
             debates={eventData.whySign.debates}
           />
-        )}
+        )} */}
 
         {eventPassed && (
           <MainMoments
@@ -117,8 +117,7 @@ export default function EventPage({
           />
         )}
 
-        <InterestPartnership />
-
+       {/* <InterestPartnership /> */}
         {eventData.partners.logos.length > 0 && (
           <PartnersSponsors
             title={eventData.sponsors.title}
@@ -127,7 +126,7 @@ export default function EventPage({
           />
         )}
 
-        {!eventPassed && (
+        {!eventPassed && !eventData.tickets && (
           <ChooseTicket
             primary={eventData.theme.primary}
             secondary={eventData.theme.secondary}

@@ -32,7 +32,7 @@ export default function EventsCard({
         alt={title}
         width={1920}
         height={1040}
-        className={`w-full rounded-t-2xl shadow-lg h-76 object-cover object-top max-lg:h-64`}
+        className={`w-full rounded-t-2xl shadow-lg h-76 object-cover object-center max-lg:h-64`}
       />
 
       {!lastTickets && (

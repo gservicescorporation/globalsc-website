@@ -5,9 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
-import { PlayCircle } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
 import Link from "next/link";
 
 interface SlidesProps {
@@ -18,49 +16,31 @@ interface SlidesProps {
   color: string;
   soon?: boolean;
   link?: string;
+  btn_text?: string;
 }
 
 export default function EventsHero() {
-  const [play, setPlay] = useState(false);
-
   const slides: SlidesProps[] = [
     {
-      imgUrl: "https://www.mesaredonda.globalsc.ao/logo.jpeg",
-      title:
-        "Mesa Redonda com CEOS - 5ª Edição",
+      imgUrl: "https://ik.imagekit.io/globalsc/mr-jul-2026/third-banner.png",
+      title: "Mesa Redonda com CEOS - 5ª Edição",
       description:
-        "O Mesa Redonda com CEOS 2026 - 5ª Edição sobre o Papel da Banca e de Outros Agentes do Sistema Financeiro na Mobilização de Financiamento é um espaço estratégico de reflexão, diálogo e partilha de experiências entre decisores públicos, instituições financeiras, investidores, reguladores e especialistas nacionais e internacionais. ",
+        "Mesa Redonda com CEOS 2026 - 5ª Edição sobre o Papel da Banca e de Outros Agentes do Sistema Financeiro na Mobilização de Financiamento é um espaço estratégico de reflexão, diálogo e partilha de experiências entre decisores públicos, instituições financeiras, investidores, reguladores e especialistas nacionais e internacionais. ",
       videoUrl: "https://www.youtube.com/embed/_llumWA1rBE?autoplay=1&rel=0",
-      color: "from-primary/90 to-[#008db1]/80",
-	  soon: true,
-	  link: "https://www.mesaredonda.globalsc.ao"
+      color: "from-[#b48a2c]/60 to-[#0149a7]/70",
+      link: "https://www.mesaredonda.globalsc.ao",
+      btn_text: "Ver mais sobre o evento",
     },
     {
-      imgUrl: "https://ik.imagekit.io/globalsc/baw-jul-2024/5.jpg",
-      title: "Business After Work - O Líder Tech",
+      imgUrl: "https://ik.imagekit.io/globalsc/mr-jul-2026/banner-lcm.png",
+      title: "LOCAL CONTENT MAGAZINE",
       description:
-        "O Business After Work – O Líder Tech reuniu executivos, empreendedores e especialistas em tecnologia num ambiente moderno e inspirador, para debater o impacto da inovação digital na liderança e no futuro dos negócios em Angola.",
+        "A Local Content Magazine é uma publicação editorial de alta qualidade dedicada a apresentar os líderes, empresas e iniciativas que impulsionam o crescimento econômico e fortalecem o ecossistema local. Com curadoria da Global Services Corporation, ela serve como uma plataforma vital para troca de conhecimento e insights estratégicos.",
 
       videoUrl: "https://www.youtube.com/embed/9n7l8sXoQj0?autoplay=1&rel=0",
-      color: "from-[#001F5D]/80 to-[#FF7A00]/80",
-    },
-    {
-      imgUrl: "https://ik.imagekit.io/globalsc/baw-jan-2025/10.jpg",
-      title: "Business After Work - Welcome Together 2025",
-      description:
-        "O Business After Work – Welcome Together 2025 marcou o início de mais um ciclo de conexão, inspiração e oportunidades promovido pela Global Services Corporation, reunindo líderes empresariais, executivos e empreendedores num ambiente de elegância, proximidade e networking de alto nível.",
-
-      videoUrl: "https://www.youtube.com/embed/9n7l8sXoQj0?autoplay=1&rel=0",
-      color: "from-[#001F5D]/80 to-[#FF7A00]/80",
-    },
-    {
-      imgUrl: "https://ik.imagekit.io/globalsc/seminario-sme-2025/11.jpeg",
-      title: "Seminário Nacional sobre Migrações | Co-Organizador",
-      description:
-        "A Abertura ofícial do evento em representação de SE Director Geral do SME, Dr. José Baptista Jr., foi feita pelo Director Geral Adjunto SE Comissário de Migração, Dr. Tomé João Kuanga. Da Global Services Corporation, a apresentação foi feita pelo Dr. Tomás Brito Administrador, que em sua explanação, reafirmou o compromisso da Global Services Corporation em contribuir no desenvolvimento das instituições Angolanas, sendo que este evento faz parte de uma visão contida em seu plano estratégico, com o programa Líder do Futuro.",
-
-      videoUrl: "https://www.youtube.com/embed/9n7l8sXoQj0?autoplay=1&rel=0",
-      color: "from-[#001F5D]/80 to-[#FF7A00]/80",
+      color: "from-[#001F5D]/50 to-[#0149a7]/60",
+      link: "https://www.mesaredonda.globalsc.ao/magazine",
+      btn_text: "Ver mais sobre revista",
     },
   ];
 
@@ -109,12 +89,12 @@ export default function EventsHero() {
                   {slide.description}
                 </p>
 
-                {slide.soon && slide.link && (
+                {slide.link && (
                   <Link
                     href={slide.link}
-					target="_blank"
+                    target="_blank"
                     className="btn-secondary w-fit max-lg:w-full max-lg:justify-center">
-                    Participar
+                    {slide.btn_text || "Ver mais"}
                   </Link>
                 )}
               </div>

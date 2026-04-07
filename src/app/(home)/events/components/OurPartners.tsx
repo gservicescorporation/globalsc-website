@@ -4,7 +4,6 @@ import Image from "next/image";
 export default function OurPartners() {
   const logos = [
     "/partners/aec.png",
-    "/partners/aecipa.png",
     "/partners/aes.png",
     "/partners/english-academy.png",
     "/partners/sistec.png",
