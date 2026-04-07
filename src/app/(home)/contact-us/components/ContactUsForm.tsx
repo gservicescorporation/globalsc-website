@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { SubmitHandler, useForm, Controller } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
-// @ts-expect-error - CSS import from react-phone-input-2
 import "react-phone-input-2/lib/style.css";
 import { api } from "@/app/api/config";
 import { toast } from "react-toastify";
