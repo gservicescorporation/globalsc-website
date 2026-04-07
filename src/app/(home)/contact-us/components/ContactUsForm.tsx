@@ -3,7 +3,6 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { SubmitHandler, useForm, Controller } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { api } from "@/app/api/config";
 import { toast } from "react-toastify";
 import { useState } from "react";
 
@@ -44,32 +43,38 @@ export default function ContactUsForm() {
   const onSubmit: SubmitHandler<InputFields> = async (data) => {
     try {
       setLoading(true);
-      const response = await api.post("/contact", {
-        name: data.fullname,
-        email: data.email,
-        phone: data.phoneNumber,
-        enterprise: data.enterprise,
-        message: data.message,
+
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: data.fullname,
+          email: data.email,
+          phone: data.phoneNumber,
+          enterprise: data.enterprise,
+          message: data.message,
+        }),
       });
 
-      if (response.status === 201) {
+      const result = await response.json();
+
+      if (response.ok) {
         toast.success(
           "Obrigado por entrar em contacto, verifique a sua caixa de e-mail!",
         );
         reset();
-      }
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    } catch (error: any) {
-      if (error.response?.status === 500) {
-        toast.error(
-          "Ocorreu um erro ao enviar a sua mensagem. Por favor, tente novamente mais tarde.",
-        );
       } else {
         toast.error(
-          error.response?.data?.message ||
+          result.message ||
             "Ocorreu um erro ao enviar a sua mensagem. Por favor, tente novamente mais tarde.",
         );
       }
+    } catch (error) {
+      toast.error(
+        "Ocorreu um erro ao enviar a sua mensagem. Por favor, tente novamente mais tarde.",
+      );
     } finally {
       setLoading(false);
     }

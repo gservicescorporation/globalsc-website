@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 		title: "Global Services Corporation",
 		description:
 			"Mediação de Seguros, Gestão de Eventos e Formação Profissional",
-		url: "https://globalsc.ao",
+		url: "https://www.globalsc.ao",
 		siteName: "Global Services Corporation",
 		images: [
 			{
-				url: "https://globalsc.ao/logo/with-bg.png",
+				url: "https://www.globalsc.ao/logo/with-bg.png",
 				width: 1920,
 				height: 1040,
 				alt: "Global Services Corporation",
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
 		title: "Global Services Corporation",
 		description:
 			"Mediação de Seguros, Gestão de Eventos e Formação Profissional",
-		images: ["https://globalsc.ao/logo/with-bg.png"],
+		images: ["https://www.globalsc.ao/logo/with-bg.png"],
 	},
-	metadataBase: new URL("https://globalsc.ao"),
+	metadataBase: new URL("https://www.globalsc.ao"),
 	authors: [
 		{
 			name: "Global Services Corporation",
-			url: "https://globalsc.ao",
+			url: "https://www.globalsc.ao",
 		},
 	],
 	keywords: [
@@ -84,8 +84,8 @@ export default function RootLayout({
 							"@context": "https://schema.org",
 							"@type": "Organization",
 							name: "Global Services Corporation",
-							url: "https://globalsc.ao",
-							logo: "https://globalsc.ao/logo/with-bg.png",
+							url: "https://www.globalsc.ao",
+							logo: "https://www.globalsc.ao/logo/with-bg.png",
 							sameAs: [
 								"https://www.facebook.com/p/Global-Services-Corporation-100094301594638/",
 								"https://www.instagram.com/globalservicescorporation/",
@@ -104,22 +104,22 @@ export default function RootLayout({
 								{
 									"@type": "Organization",
 									name: "Mediação de Seguros",
-									url: "https://globalsc.ao",
+									url: "https://www.globalsc.ao",
 								},
 								{
 									"@type": "Organization",
 									name: "Gestão de Eventos",
-									url: "https://globalsc.ao/events",
+									url: "https://www.globalsc.ao/events",
 								},
 								{
 									"@type": "Organization",
 									name: "Eventos",
-									url: "https://globalsc.ao/events/all",
+									url: "https://www.globalsc.ao/events/all",
 								},
 								{
 									"@type": "Organization",
 									name: "Entrar em contacto",
-									url: "https://globalsc.ao/contact-us",
+									url: "https://www.globalsc.ao/contact-us",
 								},
 							],
 						}),

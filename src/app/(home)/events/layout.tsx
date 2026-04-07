@@ -29,11 +29,11 @@ export const metadata: Metadata = {
     title: "Eventos Corporativos em Angola | Global Services Corporation",
     description:
       "Participe dos principais eventos de networking e negócios em Angola, promovidos pela Global Services Corporation.",
-    url: "https://globalsc.ao",
+    url: "https://www.globalsc.ao",
     siteName: "Global Services Corporation",
     images: [
       {
-        url: "https://globalsc.ao/logo/with-bg.png",
+        url: "https://www.globalsc.ao/logo/with-bg.png",
         width: 1920,
         height: 1040,
         alt: "Eventos Corporativos Global Services Corporation",
@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     title: "Eventos Corporativos em Angola | Global Services Corporation",
     description:
       "Networking e oportunidades empresariais com a Global Services Corporation.",
-    images: ["https://globalsc.ao/logo/with-bg.png"],
+    images: ["https://www.globalsc.ao/logo/with-bg.png"],
   },
   alternates: {
-    canonical: "https://globalsc.ao/events",
+    canonical: "https://www.globalsc.ao/events",
   },
   robots: {
     index: true,
@@ -83,12 +83,12 @@ export default function EventsLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Global Services Corporation",
-            url: "https://globalsc-website-v2",
-            logo: "https://globalsc.ao/logo.png",
+            url: "https://www.globalsc-website-v2",
+            logo: "https://www.globalsc.ao/logo.png",
             department: {
               "@type": "Organization",
               name: "Eventos Corporativos",
-              url: "https://globalsc.ao/events",
+              url: "https://www.globalsc.ao/events",
               description:
                 "A Global Services Corporation organiza eventos empresariais, conferências e encontros de networking em Angola.",
             },

@@ -76,7 +76,7 @@ A Global Services Corporation é uma empresa angolana especializada em prestaç�
 Nosso objetivo é fortalecer parcerias empresariais e promover um ambiente de negócios ético, inovador e sustentável.
 
 📍 Sede: Luanda, Angola
-🌐 Website: https://globalsc.ao
+🌐 Website: https://www.globalsc.ao
 
 📧 Contato: comercial@globalsc.ao
 

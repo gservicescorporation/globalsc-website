@@ -28,11 +28,11 @@ export const metadata: Metadata = {
     title: "Contacte a Global Services Corporation",
     description:
       "Fale com a nossa equipa e descubra como a Global Services Corporation pode ajudar a sua empresa a crescer em Angola.",
-    url: "https://globalsc.ao/contact-us",
+    url: "https://www.globalsc.ao/contact-us",
     siteName: "Global Services Corporation",
     images: [
       {
-        url: "https://globalsc.ao/logo/with-bg.png",
+        url: "https://www.globalsc.ao/logo/with-bg.png",
         width: 1200,
         height: 630,
         alt: "Escritório da Global Services Corporation em Angola",
@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     title: "Contacte a Global Services Corporation",
     description:
       "Entre em contacto com a Global Services Corporation para consultoria, eventos e serviços empresariais em Angola.",
-    images: ["https://globalsc.ao/logo/with-bg.png"],
+    images: ["https://www.globalsc.ao/logo/with-bg.png"],
   },
   alternates: {
-    canonical: "https://globalsc.ao/contact-us",
+    canonical: "https://www.globalsc.ao/contact-us",
   },
   robots: {
     index: true,
@@ -84,8 +84,8 @@ export default function ContactLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Global Services Corporation",
-            url: "https://globalsc-website-v2",
-            logo: "https://globalsc.ao/logo/white.png",
+            url: "https://www.globalsc-website-v2",
+            logo: "https://www.globalsc.ao/logo/white.png",
             contactPoint: [
               {
                 "@type": "ContactPoint",

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://globalsc.ao
+Host: https://www.globalsc.ao
 
 # Sitemaps
-Sitemap: https://globalsc.ao/sitemap.xml
+Sitemap: https://www.globalsc.ao/sitemap.xml
