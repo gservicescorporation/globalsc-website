@@ -37,7 +37,7 @@ export default function LandingHero() {
         slidesPerView={1}
         loop={true}
         effect="fade"
-        autoplay={{ delay: 10000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         className="h-screen w-full"
         modules={[Autoplay, EffectFade]}>
         {heroItems.map((item, index) => (
