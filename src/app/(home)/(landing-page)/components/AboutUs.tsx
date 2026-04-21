@@ -1,10 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-/* 
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-*/
-
+ 
 export default function AboutUs() {
   return (
     <motion.div
@@ -15,16 +11,14 @@ export default function AboutUs() {
       id="sobre-nos"
       className="w-full flex justify-center items-center gap-12 max-w-7xl px-8 py-12 z-10
       max-lg:flex-col max-lg:gap-10 max-lg:px-6 max-lg:py-10 max-lg:text-center">
-      {/* Imagem ilustrativa */}
       <Image
         src={"/images/illustration-2.png"}
         alt={"Illustration about our advantages"}
         width={1920}
         height={1080}
-        className="w-[550px] h-auto max-lg:w-82 max-lg:mx-auto"
+        className="w-137.5 h-auto max-lg:w-82 max-lg:mx-auto"
       />
 
-      {/* Texto */}
       <div className="max-w-xl px-8 flex flex-col gap-6 text-main max-lg:px-0 max-lg:max-w-full">
         <h1 className="text-4xl font-semibold max-lg:text-2xl">
           A história por trás da nossa empresa
@@ -39,14 +33,6 @@ export default function AboutUs() {
           capacitar são passos essenciais para o crescimento sustentável dos
           nossos clientes.
         </p>
-
-        {/* 
-        <Link
-          href="/about"
-          className="btn-primary w-fit max-lg:mx-auto max-lg:text-sm max-lg:px-5 max-lg:py-2">
-          Ver mais <ArrowRight className="w-5 max-lg:w-4" />
-        </Link> 
-        */}
       </div>
     </motion.div>
   );
