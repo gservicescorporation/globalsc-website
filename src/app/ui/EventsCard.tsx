@@ -92,7 +92,7 @@ export default function EventsCard({
           <Link
             href={link}
             className={`btn-primary flex max-lg:text-sm max-lg:gap-1`}>
-            Aderir ao evento <ArrowRight className="w-4 max-lg:w-3" />
+            Saber mais <ArrowRight className="w-4 max-lg:w-3" />
           </Link>
         )}
       </div>

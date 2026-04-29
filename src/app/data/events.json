@@ -113,6 +113,123 @@
       }
     },
     {
+      "id": "550e8400-e29b-41d4-a716-439128040000",
+      "category": "Fórum",
+      "coverUrl": "/images/events/baw-mai-2026.jpg",
+      "theme": {
+        "imgUrl": "/images/events/baw-banner.jpeg",
+        "primary": "#0c1d6bcc",
+        "secondary": "#0149a7cc"
+      },
+      "event": {
+        "title": "BAW - Welcome To 5th Edition of Mesa Redonda com CEO's",
+        "description": "Damos continuidade à nossa agenda estratégica com a realização do Business After Work (BAW) — um momento exclusivo de networking, conexão e alinhamento entre líderes empresariais. Esta edição conta com a parceria da NOBLE GROUP SA, e da Zona Económica Especial Luanda-Bengo (ZEE). O evento, reforça o compromisso com a construção de pontes entre o setor empresarial e as oportunidades emergentes no mercado angolano. O BAW é um pré-evento estratégico da Mesa Redonda com CEOs, com o objetivo de mobilizar empresas, líderes e decisores para uma participação ativa e massiva naquela que é uma das mais relevantes plataformas de diálogo econômico do país. Um ambiente pensado para criar ligações, gerar oportunidades e antecipar as grandes discussões que irão marcar a 5.ª Edição da Mesa Redonda com CEOs.",
+        "startDate": "2026-05-29",
+        "location": "Hotel Epic Sana - Luanda, Angola",
+        "images": [
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg",
+          "/images/events/baw-mai-2026.jpg"
+        ]
+      },
+      "about": {
+        "imgUrl": "/images/events/baw-mai-2026.jpg",
+        "videoUrl": "/videos/baw-vinheta.mp4",
+        "description": "Damos continuidade à nossa agenda estratégica com a realização do Business After Work (BAW) — um momento exclusivo de networking, conexão e alinhamento entre líderes empresariais. Esta edição conta com a parceria da NOBLE GROUP SA, e da Zona Económica Especial Luanda-Bengo (ZEE). O evento, reforça o compromisso com a construção de pontes entre o setor empresarial e as oportunidades emergentes no mercado angolano. O BAW é um pré-evento estratégico da Mesa Redonda com CEOs, com o objetivo de mobilizar empresas, líderes e decisores para uma participação ativa e massiva naquela que é uma das mais relevantes plataformas de diálogo econômico do país. Um ambiente pensado para criar ligações, gerar oportunidades e antecipar as grandes discussões que irão marcar a 5.ª Edição da Mesa Redonda com CEOs."
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Parceiros de confiança para impulsionar a realização deste nosso grande evento.",
+        "logos": ["/partners/nouble-group.png", "/partners/zee.png"]
+      },
+      "whySign": {
+        "title": "É o evento corporativo mais esperado do ano",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "debates": [
+          {
+            "title": "Networking exclusivo",
+            "subtitle": "Descubra a gama completa de soluções que preparamos para si e para a sua empresa.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Plenárias de qualidade",
+            "subtitle": "Com uma mesa cheia de doutores e líderes com debates únicos e exclusivos.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          },
+          {
+            "title": "Momentos de entretenimento",
+            "subtitle": "Com pausas ótimas para descontrair, teremos artistas sempre disponíveis.",
+            "imgUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg"
+          }
+        ]
+      },
+      "speakers": {
+        "title": "Líderes e visionários que compõem o nosso painel de oradores",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "speakers": []
+      },
+      "sponsors": {
+        "title": "Patrocinadores que tornam os nossos eventos possíveis.",
+        "subtitle": "Parceiros de confiança para impulsionar o seu crescimento com soluções integradas e resultados reais.",
+        "logos": []
+      },
+      "tickets": [],
+      "location": {
+        "title": "Espaço exclusivo e sofisticado.",
+        "subtitle": "Este será o local do nosso tão aguardado evento.",
+        "images": ["/images/epic-sana-2.jpg", "/images/epic-sana.jpg"],
+        "address": "Hotel Epic Sana, Luanda, Angola",
+        "phone": "+244941064919",
+        "email": "comercial@globalsc.ao"
+      },
+      "faqs": {
+        "imgUrl": "/images/events/baw-banner.jpeg",
+        "questions": [
+          {
+            "question": "O que é o Business After Work?",
+            "answer": "O BAW é um evento descontraído de apresentação da Mesa Redonda com CEOs, pensado para reunir líderes e executivos num ambiente mais leve, após o expediente, promovendo boas conversas e conexões reais."
+          },
+          {
+            "question": "Qual é o objetivo do evento?",
+            "answer": "Apresentar a proposta da Mesa Redonda com CEOs, criando um momento informal para partilha de ideias, networking e alinhamento entre líderes do ecossistema empresarial."
+          },
+          {
+            "question": "Quem pode participar?",
+            "answer": "O evento é direcionado a CEOs, executivos, gestores e convidados estratégicos interessados em fazer parte ou conhecer melhor a iniciativa."
+          },
+          {
+            "question": "Onde será realizado o evento?",
+            "answer": "O evento será realizado em Luanda, num espaço selecionado para proporcionar conforto, proximidade e um ambiente agradável para networking."
+          },
+          {
+            "question": "O que esperar do ambiente do BAW?",
+            "answer": "Um ambiente mais relaxado e acolhedor, ideal para conversas espontâneas, troca de contactos e construção de relações profissionais sem a formalidade excessiva."
+          },
+          {
+            "question": "Como posso participar?",
+            "answer": "A participação pode ser feita através de convite ou inscrição prévia junto à organização do evento."
+          },
+          {
+            "question": "As vagas são limitadas?",
+            "answer": "Sim, as vagas são limitadas para garantir uma experiência mais próxima, com qualidade nas interações."
+          },
+          {
+            "question": "Há dress code?",
+            "answer": "Sim, recomendamos um estilo business casual — elegante, mas confortável, alinhado com o conceito after work."
+          },
+          {
+            "question": "O evento será transmitido online?",
+            "answer": "Não. O BAW foi pensado como uma experiência presencial para incentivar conexões mais autênticas e diretas."
+          }
+        ]
+      }
+    },
+    {
       "id": "550e8400-e29b-41d4-a716-446655440000",
       "category": "Seminários",
       "coverUrl": "https://ik.imagekit.io/globalsc/seminario-sme/1.jpeg",

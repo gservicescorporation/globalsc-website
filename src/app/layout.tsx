@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 				url: "https://www.globalsc.ao/logo/with-bg.png",
 				width: 1920,
 				height: 1040,
-				alt: "Global Services Corporation",
+				alt: "Global Services Corporation", 
 			},
 		],
 		locale: "pt-PT",

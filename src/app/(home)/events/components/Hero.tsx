@@ -36,11 +36,20 @@ export default function EventsHero() {
       title: "LOCAL CONTENT MAGAZINE",
       description:
         "A Local Content Magazine é uma publicação editorial de alta qualidade dedicada a apresentar os líderes, empresas e iniciativas que impulsionam o crescimento econômico e fortalecem o ecossistema local. Com curadoria da Global Services Corporation, ela serve como uma plataforma vital para troca de conhecimento e insights estratégicos.",
-
       videoUrl: "https://www.youtube.com/embed/9n7l8sXoQj0?autoplay=1&rel=0",
       color: "from-[#001F5D]/50 to-[#0149a7]/60",
       link: "https://www.mesaredonda.globalsc.ao/magazine",
-      btn_text: "Ver mais sobre revista",
+      btn_text: "Ver mais sobre a revista",
+    },
+    {
+      imgUrl: "/images/events/baw-banner.jpeg",
+      title: "BAW - Welcome To 5th Edition of Mesa Redonda com CEO's",
+      description:
+        "Damos continuidade à nossa agenda estratégica com a realização do Business After Work (BAW) — um momento exclusivo de networking, conexão e alinhamento entre líderes empresariais. Esta edição conta com a parceria da NOBLE GROUP SA, e da Zona Económica Especial Luanda-Bengo (ZEE).",
+      videoUrl: "https://www.youtube.com/embed/9n7l8sXoQj0?autoplay=1&rel=0",
+      color: "from-[#001F5D]/50 to-[#0149a7]/60",
+      link: "https://www.globalsc.ao/events/550e8400-e29b-41d4-a716-439128040000",
+      btn_text: "Ver mais sobre o evento",
     },
   ];
 

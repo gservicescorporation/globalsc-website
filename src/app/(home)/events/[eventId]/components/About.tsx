@@ -8,6 +8,7 @@ interface AboutProps {
   description: string;
   primary: string;
   imgUrl: string;
+  videoUrl?: string;
 }
 
 export default function About({
@@ -15,6 +16,7 @@ export default function About({
   description,
   primary,
   imgUrl,
+  videoUrl,
 }: AboutProps) {
   return (
     <motion.div
@@ -79,14 +81,25 @@ export default function About({
             rotate: 1,
             boxShadow: "0px 10px 30px rgba(0,0,0,0.2)",
           }}
-          className="rounded-2xl overflow-hidden w-full lg:h-125 max-lg:h-60">
-          <Image
-            src={imgUrl}
-            alt={"Illustration about event"}
-            width={1920}
-            height={1080}
-            className="w-full h-full rounded-2xl object-cover object-center"
-          />
+          className="rounded-2xl overflow-hidden w-full lg:h-125 max-lg:h-60 bg-black">
+          {videoUrl ? (
+            <video
+              src={videoUrl}
+              controls
+              autoPlay
+              loop
+              muted
+              className="w-full h-full rounded-2xl object-contain object-center"
+            />
+          ) : (
+            <Image
+              src={imgUrl}
+              alt="Illustration about event"
+              width={1920}
+              height={1080}
+              className="w-full h-full rounded-2xl object-cover object-center"
+            />
+          )}
         </motion.div>
       </div>
     </motion.div>

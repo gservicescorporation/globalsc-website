@@ -1,7 +1,6 @@
 "use client";
 
 import { EventDataInterface } from "@/app/interfaces/event-data";
-import InterestPartnership from "../components/InterestPartnership";
 import About from "./components/About";
 import ChooseTicket from "./components/ChooseTicket";
 import FAQ from "./components/FAQ";
@@ -9,7 +8,6 @@ import Hero from "./components/Hero";
 import Location from "./components/Location";
 import PartnersSponsors from "./components/PartnersSponsors";
 import Speakers from "./components/Speakers";
-import WhySign from "./components/WhySign";
 import { use, useEffect, useState } from "react";
 import event from "@/app/data/events.json";
 import { toast, ToastContainer } from "react-toastify";
@@ -33,6 +31,10 @@ export default function EventPage({
           ...foundEvent.event,
           startDate: foundEvent.event.startDate,
           images: foundEvent.event.images || [],
+        },
+        about: {
+          ...foundEvent.about,
+          videoUrl: foundEvent.about.videoUrl || '',
         },
       });
     } else {
@@ -80,6 +82,7 @@ export default function EventPage({
           description={eventData.about.description}
           primary={eventData.theme.primary}
           imgUrl={eventData.about.imgUrl}
+          videoUrl={eventData.about.videoUrl}
         />
 
         {eventData.partners.logos.length > 0 && (
@@ -90,7 +93,7 @@ export default function EventPage({
           />
         )}
 
-       {/*  {!eventPassed && (
+       {/* {!eventPassed && (
           <WhySign
             primary={eventData.theme.primary}
             secondary={eventData.theme.secondary}
@@ -117,8 +120,7 @@ export default function EventPage({
           />
         )}
 
-       {/* <InterestPartnership /> */}
-        {eventData.partners.logos.length > 0 && (
+        {eventData.sponsors.logos.length > 0 && (
           <PartnersSponsors
             title={eventData.sponsors.title}
             subtitle={eventData.sponsors.subtitle}

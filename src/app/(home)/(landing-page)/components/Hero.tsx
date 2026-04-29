@@ -22,6 +22,13 @@ export default function LandingHero() {
       link: "https://www.mesaredonda.globalsc.ao/magazine",
     },
     {
+      title: "BAW - Welcome To 5th Edition of Mesa Redonda com CEO's",
+      description:
+        "Damos continuidade à nossa agenda estratégica com a realização do Business After Work (BAW) — um momento exclusivo de networking, conexão e alinhamento entre líderes empresariais.",
+      image: "/images/events/baw-banner.jpeg",
+      link: "https://www.mesaredonda.globalsc.ao/magazine",
+    },
+    {
       title: "Criamos Experiências Inesquecíveis e Eventos que Fazem História",
       description:
         "Transformamos ideias em eventos marcantes que fortalecem marcas e conectam pessoas.",

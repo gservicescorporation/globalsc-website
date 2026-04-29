@@ -12,9 +12,10 @@ export interface EventDataInterface {
     startDate: string;
     location: string;
     description: string;
-    images: string[]
+    images: string[];
   };
   about: {
+    videoUrl: string;
     imgUrl: string;
     description: string;
   };

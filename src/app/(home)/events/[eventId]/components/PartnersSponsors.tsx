@@ -49,7 +49,7 @@ export default function PartnersSponsors({
         </p>
       </div>
 
-      <motion.ul className="w-full flex justify-around items-center gap-16 flex-wrap max-lg:gap-8 max-lg:justify-center">
+      <motion.ul className="w-full flex justify-center items-center gap-24 flex-wrap max-lg:gap-8 max-lg:justify-center">
         {logos.map((item, index) => (
           <motion.li
             key={index}
