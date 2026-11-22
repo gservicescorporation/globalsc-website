@@ -1,16 +1,28 @@
 import type { Metadata, Viewport } from "next"
-import { Poppins } from "next/font/google"
+import { Instrument_Serif, Plus_Jakarta_Sans } from "next/font/google"
 import "./globals.css"
 import Script from "next/script"
 
-const poppins = Poppins({
+const jakarta = Plus_Jakarta_Sans({
 	subsets: ["latin"],
-	weight: ["400", "500", "600", "700", "800", "900"],
-	variable: "--font-poppins",
+	weight: ["400", "500", "600", "700", "800"],
+	variable: "--font-jakarta",
+	display: "swap",
+})
+
+const instrument = Instrument_Serif({
+	subsets: ["latin"],
+	weight: "400",
+	style: ["normal", "italic"],
+	variable: "--font-instrument",
+	display: "swap",
 })
 
 export const metadata: Metadata = {
-	title: "Global Services Corporation",
+	title: {
+		default: "Global Services Corporation",
+		template: "%s | Global Services Corporation",
+	},
 	description: "Mediação de Seguros, Gestão de Eventos e Formação Profissional",
 	icons: {
 		icon: "/favicon.ico",
@@ -63,7 +75,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#ffffff",
+  themeColor: "#070b16",
 };
 
 export default function RootLayout({
@@ -72,8 +84,19 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang="pt-PT">
-			<body className={`${poppins.variable} antialiased`}>
+		<html
+			lang="pt-PT"
+			suppressHydrationWarning
+			className={`${jakarta.variable} ${instrument.variable}`}>
+			<head>
+				{/* Marca o documento como "com JS" antes da pintura (evita flash nas animações). */}
+				<script
+					dangerouslySetInnerHTML={{
+						__html: "document.documentElement.classList.add('js')",
+					}}
+				/>
+			</head>
+			<body className="antialiased">
 				{children}
 
 				<Script

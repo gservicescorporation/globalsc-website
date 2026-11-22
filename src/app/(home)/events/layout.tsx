@@ -5,7 +5,7 @@ import Script from "next/script";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#ffffff",
+  themeColor: "#070b16",
 };
 
 export const metadata: Metadata = {
@@ -83,8 +83,8 @@ export default function EventsLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Global Services Corporation",
-            url: "https://www.globalsc-website-v2",
-            logo: "https://www.globalsc.ao/logo.png",
+            url: "https://www.globalsc.ao",
+            logo: "https://www.globalsc.ao/logo/with-bg.png",
             department: {
               "@type": "Organization",
               name: "Eventos Corporativos",

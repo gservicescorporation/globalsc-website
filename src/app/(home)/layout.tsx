@@ -1,36 +1,23 @@
-"use client";
+import SmoothScroll from "@/components/motion/SmoothScroll"
+import { getSiteContent } from "@/server/content"
+import Footer from "../ui/Footer"
+import Header from "../ui/Header"
 
-import { AnimatePresence, motion } from "framer-motion";
-import { usePathname } from "next/navigation";
-import Header from "../ui/Header";
-import Footer from "../ui/Footer";
-
-export default function HomeLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  const pathname = usePathname();
-
-  return (
-    <div className="min-h-screen flex flex-col overflow-hidden">
-      <Header
-        variant={`${pathname === "/contact-us" ? "secondary" : "primary"}`}
-      />
-
-      <AnimatePresence mode="wait">
-        <motion.main
-          key={pathname}
-          initial={{ x: -50, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: 50, opacity: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="flex-1">
-          {children}
-        </motion.main>
-      </AnimatePresence>
-
-      <Footer />
-    </div>
-  );
+export default async function HomeLayout({ children }: { children: React.ReactNode }) {
+	const content = await getSiteContent()
+	const chrome = { contacts: content.contacts, socials: content.socials }
+	return (
+		<SmoothScroll>
+			<a
+				href="#conteudo"
+				className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-60 focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-ink">
+				Saltar para o conteúdo
+			</a>
+			<Header chrome={chrome} />
+			<main id="conteudo" className="min-h-screen">
+				{children}
+			</main>
+			<Footer chrome={chrome} />
+		</SmoothScroll>
+	)
 }

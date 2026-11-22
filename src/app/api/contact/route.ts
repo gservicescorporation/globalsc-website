@@ -7,9 +7,35 @@ export async function POST(req: Request) {
   try {
     const body = await req.json();
 
-    const { name, email, phone, enterprise, message } = body;
+    const raw = body ?? {};
 
     // Validação básica (backend nunca confia no frontend)
+    if (!raw.name || !raw.email || !raw.phone || !raw.message) {
+      return NextResponse.json(
+        { message: "Campos obrigatórios em falta." },
+        { status: 400 },
+      );
+    }
+    if (!/^[^\s@<>"'&]+@[^\s@<>"'&]+\.[^\s@<>"'&]+$/.test(String(raw.email).trim())) {
+      return NextResponse.json({ message: "Email inválido." }, { status: 400 });
+    }
+
+    // Escapa HTML para evitar injeção de conteúdo nos emails.
+    const esc = (v: unknown) =>
+      String(v ?? "")
+        .slice(0, 5000)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    const name = esc(raw.name);
+    const email = String(raw.email).trim();
+    const phone = esc(raw.phone);
+    const enterprise = raw.enterprise ? esc(raw.enterprise) : "";
+    const topic = raw.subject ? esc(raw.subject) : "Contacto geral";
+    const message = esc(raw.message).replace(/\n/g, "<br/>");
+
     if (!name || !email || !phone || !message) {
       return NextResponse.json(
         { message: "Campos obrigatórios em falta." },
@@ -19,9 +45,9 @@ export async function POST(req: Request) {
 
     // 📩 Email para a empresa
     await resend.emails.send({
-      from: "Contacto <comercial@globalsc.ao>", // depois troca pelo teu domínio
-      to: ["comercial@globalsc.ao"], // <- IMPORTANTE
-      subject: `Novo contacto de ${name}`,
+      from: "Contacto <comercial@gservicescorporation.com>", // depois troca pelo teu domínio
+      to: ["comercial@gservicescorporation.com"], // <- IMPORTANTE
+      subject: `[${topic}] ${name}`,
       html: `
   <div style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 40px;">
     <div style="max-width: 600px; margin: auto; background: #ffffff; border-radius: 8px; overflow: hidden;">
@@ -36,6 +62,10 @@ export async function POST(req: Request) {
         </p>
 
         <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+            <td style="padding: 8px 0; font-weight: bold;">Assunto:</td>
+            <td style="padding: 8px 0;">${topic}</td>
+          </tr>
           <tr>
             <td style="padding: 8px 0; font-weight: bold;">Nome:</td>
             <td style="padding: 8px 0;">${name}</td>
@@ -74,7 +104,7 @@ export async function POST(req: Request) {
 
     // 📩 Email de confirmação para o utilizador
     await resend.emails.send({
-      from: "Global Services <comercial@globalsc.ao>",
+      from: "Global Services <comercial@gservicescorporation.com>",
       to: [email],
       subject: "Recebemos a sua mensagem",
       html: `

@@ -1,71 +1,294 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #fafafa;
-  --color-background-secondary: #f3f7fd;
-  --color-main: #242565;
+  /* Marca */
+  --color-ink: #070b16;
+  --color-night: #0b1222;
   --color-primary: #0e1628;
-  --color-secondary: #f3f7fd;
-  --color-tertiary: #5c5c5c;
-  --color-accent: #51b7ff;
+  --color-main: #242565;
+  --color-royal: #0049af;
   --color-event: #0049af;
+  --color-accent: #51b7ff;
+  --color-gold: #c9a24a;
+  --color-gold-soft: #e6cf96;
+
+  /* Superfícies e texto */
+  --color-background: #f6f7fb;
+  --color-background-secondary: #eef2fa;
+  --color-secondary: #f3f7fd;
+  --color-paper: #ffffff;
+  --color-tertiary: #5b6478;
+  --color-muted: #8b93a7;
+  --color-line: #e3e7f0;
   --color-input: #4d5fc3;
+
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument), ui-serif, Georgia, serif;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius-4xl: 2rem;
 }
 
 :root {
-  --font-poppins: "Poppins", sans-serif;
+  --gutter: clamp(1rem, 4vw, 3rem);
+}
+
+html {
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: auto;
 }
 
 body {
   background-color: var(--color-background);
   color: var(--color-primary);
-  font-family: var(--font-poppins);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
 }
 
+::selection {
+  background: var(--color-accent);
+  color: var(--color-ink);
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+/* ---------------------------------------------------------------- */
+/* Layout                                                           */
+/* ---------------------------------------------------------------- */
+
+@utility container-x {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+@utility section-y {
+  padding-block: clamp(4.5rem, 10vw, 9rem);
+}
+
+/* ---------------------------------------------------------------- */
+/* Tipografia                                                       */
+/* ---------------------------------------------------------------- */
+
+@utility display-xl {
+  font-size: clamp(2.6rem, 7.2vw, 6.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  font-weight: 700;
+}
+
+@utility display-lg {
+  font-size: clamp(2.1rem, 5vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+@utility display-md {
+  font-size: clamp(1.75rem, 3.4vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+@utility eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+@utility serif-accent {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.75rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.6;
+}
+
+/* ---------------------------------------------------------------- */
+/* Botões                                                           */
+/* ---------------------------------------------------------------- */
+
+@layer components {
+.btn {
+  @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-6 py-3.5 text-sm font-semibold whitespace-nowrap transition-[color,background-color,border-color,transform] duration-300 ease-out select-none;
+  isolation: isolate;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  transform: translateY(101%);
+  transition: transform 0.5s var(--ease-out-expo);
+}
+.btn:hover::after {
+  transform: translateY(0);
+}
+.btn:active {
+  transform: scale(0.97);
+}
+.btn svg {
+  transition: transform 0.4s var(--ease-out-expo);
+}
+.btn:hover svg {
+  transform: translateX(3px);
+}
+
+.btn-light {
+  @apply bg-white text-ink hover:text-white;
+}
+.btn-light::after {
+  background: var(--color-royal);
+}
+
+.btn-dark {
+  @apply bg-ink text-white hover:text-ink;
+}
+.btn-dark::after {
+  background: var(--color-accent);
+}
+
+.btn-outline-light {
+  @apply border border-white/40 text-white hover:text-ink;
+}
+.btn-outline-light::after {
+  background: white;
+}
+
+.btn-outline-dark {
+  @apply border border-ink/20 text-ink hover:text-white;
+}
+.btn-outline-dark::after {
+  background: var(--color-ink);
+}
+
+/* Compatibilidade com as páginas de pagamento */
 .btn-primary {
-  @apply bg-primary text-white font-semibold py-2 px-6 rounded-md lg:flex justify-center items-center gap-2 border border-primary hover:bg-transparent hover:text-main transition-colors duration-300;
+  @apply inline-flex items-center justify-center gap-2 rounded-full border border-primary bg-primary px-6 py-3 font-semibold text-white transition-colors duration-300 hover:bg-transparent hover:text-main;
 }
-
 .btn-secondary {
-  @apply bg-none text-white font-semibold py-2 px-6 rounded-md lg:flex items-center gap-2 border border-white hover:bg-white hover:text-main transition-colors duration-300 max-lg:text-sm max-lg:px-4 max-lg:py-2;
+  @apply inline-flex items-center gap-2 rounded-full border border-white px-6 py-3 font-semibold text-white transition-colors duration-300 hover:bg-white hover:text-main;
 }
-
 .btn-tertiary {
-  @apply bg-white text-main font-semibold py-2 px-6 rounded-md lg:flex items-center gap-2 hover:bg-transparent border border-white hover:text-white transition-colors duration-300;
+  @apply inline-flex items-center gap-2 rounded-full border border-white bg-white px-6 py-3 font-semibold text-main transition-colors duration-300 hover:bg-transparent hover:text-white;
+}
+.btn-quaternary {
+  @apply inline-flex items-center gap-2 rounded-full border border-main px-6 py-3 font-semibold text-main transition-colors duration-300 hover:bg-main hover:text-white;
 }
 
-.btn-quaternary {
-  @apply bg-none text-main font-semibold py-2 px-6 rounded-md lg:flex items-center gap-2 border border-main hover:bg-main hover:text-white transition-colors duration-300;
-}
+/* ---------------------------------------------------------------- */
+/* Formulários                                                      */
+/* ---------------------------------------------------------------- */
 
 .input-form {
-  @apply placeholder:font-medium bg-white px-4 py-4 rounded-md outline-none;
+  @apply w-full rounded-xl border border-line bg-white px-4 py-3.5 text-primary outline-none transition-[border-color,box-shadow] duration-200 placeholder:text-muted focus:border-royal focus:ring-4 focus:ring-royal/10;
 }
-
 .input-label {
-  @apply flex flex-col gap-2;
+  @apply flex flex-col gap-2 text-sm font-medium;
 }
-
 .input-blur {
-  @apply bg-white/20 px-4 py-3 rounded-md outline-none;
+  @apply rounded-md bg-white/20 px-4 py-3 outline-none;
+}
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  display: none !important;
+/* ---------------------------------------------------------------- */
+/* Efeitos                                                          */
+/* ---------------------------------------------------------------- */
+
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-.custom-next.swiper-button-next,
-.custom-prev.swiper-button-prev {
-  &:hover {
-    @apply bg-main/50 text-white;
+.grid-lines {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, #ffffff 10%, var(--color-accent) 55%, var(--color-gold-soft) 95%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mask-fade-x {
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Elementos animados começam invisíveis só quando o JS está ativo,
+   evitando "flash" antes da animação. */
+.js [data-reveal] {
+  opacity: 0;
+}
+.js [data-split] {
+  visibility: hidden;
+}
+.split-line {
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] {
+    opacity: 1 !important;
+  }
+  .js [data-split] {
+    visibility: visible !important;
   }
 }
 
-.swiper-button-disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-  &:hover {
-    @apply bg-main text-white;
-  }
+/* react-phone-input-2 */
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: auto !important;
+  padding-block: 0.875rem !important;
+  border-radius: 0.75rem !important;
+  border-color: var(--color-line) !important;
+  font-family: inherit !important;
+}
+.react-tel-input .flag-dropdown {
+  border-radius: 0.75rem 0 0 0.75rem !important;
+  border-color: var(--color-line) !important;
+  background: white !important;
 }

@@ -1,163 +1,108 @@
-"use client";
+import type { Metadata } from "next"
+import { notFound, permanentRedirect } from "next/navigation"
+import { getEventBySlugOrId } from "@/server/events"
+import EventAbout from "./components/EventAbout"
+import EventFaq from "./components/EventFaq"
+import EventGallery from "./components/EventGallery"
+import EventHero from "./components/EventHero"
+import EventLogos from "./components/EventLogos"
+import EventSpeakers from "./components/EventSpeakers"
+import EventTickets from "./components/EventTickets"
+import EventVenue from "./components/EventVenue"
+import EventWhy from "./components/EventWhy"
 
-import { EventDataInterface } from "@/app/interfaces/event-data";
-import About from "./components/About";
-import ChooseTicket from "./components/ChooseTicket";
-import FAQ from "./components/FAQ";
-import Hero from "./components/Hero";
-import Location from "./components/Location";
-import PartnersSponsors from "./components/PartnersSponsors";
-import Speakers from "./components/Speakers";
-import { use, useEffect, useState } from "react";
-import event from "@/app/data/events.json";
-import { toast, ToastContainer } from "react-toastify";
-import MainMoments from "./components/MainMoments";
+export const revalidate = 300
 
-export default function EventPage({
-  params,
-}: {
-  params: Promise<{ eventId: string }>;
-}) {
-  const { eventId } = use(params);
-  const [eventData, setEventData] = useState<EventDataInterface>();
-  const [eventPassed, setEventPassed] = useState(false);
+type Params = { params: Promise<{ eventId: string }> }
 
-  useEffect(() => {
-    const foundEvent = event.events.find((e) => e.id === eventId);
-    if (foundEvent) {
-      setEventData({
-        ...foundEvent,
-        event: {
-          ...foundEvent.event,
-          startDate: foundEvent.event.startDate,
-          images: foundEvent.event.images || [],
-        },
-        about: {
-          ...foundEvent.about,
-          videoUrl: foundEvent.about.videoUrl || '',
-        },
-      });
-    } else {
-      toast.error("Evento não encontrado");
-    }
-  }, [eventId]);
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+	const { eventId } = await params
+	const event = await getEventBySlugOrId(eventId)
+	if (!event) return { title: "Evento não encontrado" }
+	const description = event.description.slice(0, 160)
+	const image = event.coverUrl || event.theme.imgUrl
+	return {
+		title: event.title,
+		description,
+		alternates: { canonical: `https://www.globalsc.ao/events/${event.slug}` },
+		openGraph: {
+			title: event.title,
+			description,
+			type: "article",
+			url: `https://www.globalsc.ao/events/${event.slug}`,
+			images: image ? [{ url: image, alt: event.title }] : undefined,
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: event.title,
+			description,
+			images: image ? [image] : undefined,
+		},
+	}
+}
 
-  useEffect(() => {
-    if (!eventData) return;
+export default async function EventPage({ params }: Params) {
+	const { eventId } = await params
+	const event = await getEventBySlugOrId(eventId)
+	if (!event) notFound()
+	if (decodeURIComponent(eventId) !== event.slug) permanentRedirect(`/events/${event.slug}`)
 
-    const timer = setInterval(() => {
-      const now = new Date().getTime();
-      const eventTime = new Date(eventData.event.startDate).getTime();
-      setEventPassed(eventTime - now <= 0);
-    }, 1000);
+	const today = new Date().toISOString().slice(0, 10)
+	const passed = event.startDate < today
 
-    return () => clearInterval(timer);
-  }, [eventData]);
+	const style = {
+		"--ev-primary": event.theme.primary || "#242565",
+		"--ev-secondary": event.theme.secondary || "#0049af",
+	} as React.CSSProperties
 
-  if (!eventData) {
-    return (
-      <div className="min-h-screen bg-background text-foreground flex flex-col items-center justify-center text-white gap-4">
-        <h1 className="text-4xl font-semibold text-primary">
-          Evento não encontrado
-        </h1>
-      </div>
-    );
-  }
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "Event",
+		name: event.title,
+		description: event.description,
+		startDate: event.startTime ? `${event.startDate}T${event.startTime}` : event.startDate,
+		eventStatus: "https://schema.org/EventScheduled",
+		eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+		image: [event.coverUrl || event.theme.imgUrl].filter(Boolean),
+		location: {
+			"@type": "Place",
+			name: event.location,
+			address: { "@type": "PostalAddress", streetAddress: event.venue.address || event.location, addressCountry: "AO" },
+		},
+		organizer: {
+			"@type": "Organization",
+			name: "Global Services Corporation",
+			url: "https://www.globalsc.ao",
+		},
+		...(event.ticketsEnabled && event.tickets.length
+			? {
+					offers: event.tickets.map((t) => ({
+						"@type": "Offer",
+						name: t.ticketName,
+						price: t.price,
+						priceCurrency: "AOA",
+						url: `https://www.globalsc.ao/events/${event.slug}/get-ticket`,
+					})),
+				}
+			: {}),
+	}
 
-  return (
-    <>
-      <ToastContainer />
-      <div className="min-h-screen bg-background text-foreground flex flex-col items-center text-white gap-16">
-        <Hero
-          eventTitle={eventData.event.title}
-          imgUrl={eventData.theme.imgUrl}
-          primaryColor={eventData.theme.primary}
-          secondaryColor={eventData.theme.secondary}
-          startDate={new Date(eventData.event.startDate)}
-          location={eventData.event.location}
-        />
-
-        <About
-          title={eventData.event.title}
-          description={eventData.about.description}
-          primary={eventData.theme.primary}
-          imgUrl={eventData.about.imgUrl}
-          videoUrl={eventData.about.videoUrl}
-        />
-
-        {eventData.partners.logos.length > 0 && (
-          <PartnersSponsors
-            title={eventData.partners.title}
-            subtitle={eventData.partners.subtitle}
-            logos={eventData.partners.logos}
-          />
-        )}
-
-       {/* {!eventPassed && (
-          <WhySign
-            primary={eventData.theme.primary}
-            secondary={eventData.theme.secondary}
-            title={eventData.whySign.title}
-            subtitle={eventData.whySign.subtitle}
-            debates={eventData.whySign.debates}
-          />
-        )} */}
-
-        {eventPassed && (
-          <MainMoments
-            primary={eventData.theme.primary}
-            secondary={eventData.theme.secondary}
-            images={eventData.event.images}
-          />
-        )}
-
-        {eventData.speakers.speakers.length > 0 && (
-          <Speakers
-            primary={eventData.theme.primary}
-            title={eventData.speakers.title}
-            subtitle={eventData.speakers.subtitle}
-            speakers={eventData.speakers.speakers}
-          />
-        )}
-
-        {eventData.sponsors.logos.length > 0 && (
-          <PartnersSponsors
-            title={eventData.sponsors.title}
-            subtitle={eventData.sponsors.subtitle}
-            logos={eventData.sponsors.logos}
-          />
-        )}
-
-        {!eventPassed && !eventData.tickets && (
-          <ChooseTicket
-            primary={eventData.theme.primary}
-            secondary={eventData.theme.secondary}
-            imgUrl={eventData.theme.imgUrl}
-            tickets={eventData.tickets}
-          />
-        )}
-
-        {!eventPassed && (
-          <Location
-            primary={eventData.theme.primary}
-            title={eventData.location.title}
-            subtitle={eventData.location.subtitle}
-            images={eventData.location.images}
-            address={eventData.location.address}
-            phone={eventData.location.phone}
-            email={eventData.location.email}
-          />
-        )}
-
-        {!eventPassed && (
-          <FAQ
-            primary={eventData.theme.primary}
-            secondary={eventData.theme.secondary}
-            imgUrl={eventData.faqs.imgUrl}
-            faqs={eventData.faqs.questions}
-          />
-        )}
-      </div>
-    </>
-  );
+	return (
+		<div style={style}>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+			/>
+			<EventHero event={event} passed={passed} />
+			<EventAbout event={event} />
+			{!passed && event.whySign.enabled && event.whySign.debates.length > 0 && <EventWhy event={event} />}
+			{passed && event.gallery.length > 0 && <EventGallery images={event.gallery} title={event.title} />}
+			{event.speakers.speakers.length > 0 && <EventSpeakers block={event.speakers} />}
+			{event.partners.logos.length > 0 && <EventLogos block={event.partners} />}
+			{event.sponsors.logos.length > 0 && <EventLogos block={event.sponsors} tone="paper" />}
+			{!passed && event.ticketsEnabled && event.tickets.length > 0 && <EventTickets event={event} />}
+			{!passed && (event.venue.address || event.venue.images.length > 0) && <EventVenue event={event} />}
+			{!passed && event.faqs.questions.length > 0 && <EventFaq faqs={event.faqs.questions} />}
+		</div>
+	)
 }

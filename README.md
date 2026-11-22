@@ -78,7 +78,7 @@ Nosso objetivo é fortalecer parcerias empresariais e promover um ambiente de ne
 📍 Sede: Luanda, Angola
 🌐 Website: https://www.globalsc.ao
 
-📧 Contato: comercial@globalsc.ao
+📧 Contato: comercial@gservicescorporation.com
 
 👥 Equipa Técnica
 Função	Responsável

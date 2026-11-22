@@ -1,101 +1,80 @@
-import { ArrowRight } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
-import { getDateCalendar } from "../utils/formatDate";
+import { ArrowUpRight, MapPin } from "lucide-react"
+import Image from "next/image"
+import Link from "next/link"
+import { getDateCalendar } from "../utils/formatDate"
+import type { EventSummary } from "@/types/event"
 
-interface EventsCardProps {
-  variant?: "primary" | "secondary";
-  imgUrl: string;
-  title: string;
-  description?: string;
-  link: string;
-  date?: Date;
-  lastTickets?: boolean;
-}
-
+/** Cartão de evento com imagem em zoom, data em destaque e seta animada. */
 export default function EventsCard({
-  date,
-  description,
-  imgUrl,
-  link,
-  title,
-  variant,
-  lastTickets,
-}: EventsCardProps) {
-  const { mes, dia } = getDateCalendar(date || new Date());
+	event,
+	size = "md",
+	reveal = true,
+}: {
+	event: EventSummary
+	size?: "md" | "lg"
+	reveal?: boolean
+}) {
+	const { mes, dia, ano } = getDateCalendar(event.startDate)
+	const today = new Date().toISOString().slice(0, 10)
+	const upcoming = event.startDate >= today
 
-  return (
-    <div
-      className={`w-full max-w-sm flex flex-col rounded-2xl hover:scale-105 transition-transform duration-300 text-main relative max-lg:max-w-full`}>
-      <Image
-        src={imgUrl}
-        alt={title}
-        width={1920}
-        height={1040}
-        className={`w-full rounded-t-2xl shadow-lg h-76 object-cover object-center max-lg:h-64`}
-      />
+	return (
+		<Link
+			href={`/events/${event.slug}`}
+			data-reveal={reveal ? "up" : undefined}
+			data-cursor="Ver"
+			className="group relative flex h-full flex-col overflow-hidden rounded-[1.75rem] bg-paper ring-1 ring-line transition-shadow duration-500 hover:shadow-[0_30px_60px_-25px_rgb(14_22_40/0.35)]">
+			<div
+				className={`relative overflow-hidden ${
+					size === "lg" ? "aspect-[16/11]" : "aspect-[4/3]"
+				}`}>
+				<Image
+					src={event.coverUrl || "/images/conference.jpg"}
+					alt={event.title}
+					fill
+					sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+					className="object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(.16,1,.3,1)] group-hover:scale-[1.07]"
+				/>
+				<div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-transparent to-transparent" />
 
-      {!lastTickets && (
-        <p className="text-xs text-white font-medium bg-blue-500 w-fit px-2 py-1 rounded-md absolute top-5 right-5 max-lg:text-[10px] max-lg:top-3 max-lg:right-3">
-          Últimos ingressos
-        </p>
-      )}
+				<div className="absolute top-4 left-4 flex flex-col items-center rounded-2xl bg-white/90 px-3 py-2 text-ink shadow-lg backdrop-blur">
+					<span className="text-[0.65rem] font-bold tracking-widest text-royal">{mes}</span>
+					<span className="text-2xl leading-none font-bold">{dia}</span>
+					<span className="text-[0.6rem] font-medium text-muted">{ano}</span>
+				</div>
 
-      <div
-        className={`bg-white rounded-b-2xl shadow-lg flex flex-col gap-4 transition-all duration-300 ${
-          variant === "primary"
-            ? "h-62 justify-between p-6 max-lg:h-56 max-lg:p-4"
-            : variant === "secondary" && "h-62 p-5 max-lg:h-56 max-lg:p-4"
-        }`}>
-        {variant === "primary" && (
-          <>
-            <span className="flex flex-col gap-2">
-              <h2 className={`text-lg font-semibold max-lg:text-base`}>
-                {title}
-              </h2>
-              <p className={`text-gray-600 text-sm max-lg:text-xs`}>
-                {description && description.slice(0, 80) + "..."}
-              </p>
-            </span>
+				{upcoming && (
+					<span className="absolute top-4 right-4 flex items-center gap-1.5 rounded-full bg-accent px-3 py-1 text-xs font-semibold text-ink">
+						<span className="h-1.5 w-1.5 animate-pulse rounded-full bg-ink" />
+						Brevemente
+					</span>
+				)}
+				{event.category && (
+					<span className="absolute bottom-4 left-4 rounded-full bg-white/15 px-3 py-1 text-xs font-medium text-white ring-1 ring-white/25 backdrop-blur-md">
+						{event.category}
+					</span>
+				)}
+			</div>
 
-            <Link
-              href={link}
-              className={`flex items-center gap-2 font-semibold p-2 rounded-md hover:bg-gray-50 w-fit transition-colors duration-300 max-lg:text-sm max-lg:gap-1`}>
-              Saber mais <ArrowRight className="w-4 max-lg:w-3" />
-            </Link>
-          </>
-        )}
+			<div className="flex flex-1 flex-col gap-3 p-6">
+				<h3 className="line-clamp-2 text-lg leading-snug font-semibold text-ink sm:text-xl">
+					{event.title}
+				</h3>
+				{event.location && (
+					<p className="flex items-center gap-1.5 text-sm text-tertiary">
+						<MapPin className="h-4 w-4 shrink-0 text-royal" />
+						<span className="line-clamp-1">{event.location}</span>
+					</p>
+				)}
+				<p className="line-clamp-2 text-sm leading-relaxed text-muted">{event.description}</p>
 
-        {variant === "secondary" && (
-          <Link
-            href={link}
-            className={`flex gap-3 items-start`}>
-            {date && (
-              <span className="text-sm font-medium flex flex-col items-center bg-input/24 rounded-lg px-3 py-2 justify-center max-lg:px-2 max-lg:py-1">
-                <p className="text-xs">{mes}</p>
-                <p className="text-2xl font-bold">{dia}</p>
-              </span>
-            )}
-
-            <span className="flex flex-col gap-1">
-              <h2 className={`text-lg font-semibold max-lg:text-base`}>
-                {title}
-              </h2>
-              <p className="text-sm text-tertiary max-lg:text-xs">
-                {description?.slice(0, 125) + "..."}
-              </p>
-            </span>
-          </Link>
-        )}
-
-        {variant === "secondary" && (
-          <Link
-            href={link}
-            className={`btn-primary flex max-lg:text-sm max-lg:gap-1`}>
-            Saber mais <ArrowRight className="w-4 max-lg:w-3" />
-          </Link>
-        )}
-      </div>
-    </div>
-  );
+				<span className="mt-auto flex items-center justify-between pt-4 text-sm font-semibold text-ink">
+					{upcoming ? "Ver detalhes" : "Reviver o evento"}
+					<span className="flex h-10 w-10 items-center justify-center rounded-full bg-background transition-all duration-500 group-hover:rotate-45 group-hover:bg-ink group-hover:text-white">
+						<ArrowUpRight className="h-4 w-4" />
+					</span>
+				</span>
+			</div>
+		</Link>
+	)
 }

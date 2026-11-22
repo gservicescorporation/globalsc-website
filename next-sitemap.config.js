@@ -5,8 +5,8 @@ module.exports = {
 	sitemapSize: 7000,
 	changefreq: "weekly",
 	priority: 0.7,
-	exclude: ["/404"],
+	exclude: ["/404", "/admin", "/admin/*", "/api/*"],
 	robotsTxtOptions: {
-		policies: [{ userAgent: "*", allow: "/" }],
+		policies: [{ userAgent: "*", allow: "/", disallow: ["/admin", "/api"] }],
 	},
 }

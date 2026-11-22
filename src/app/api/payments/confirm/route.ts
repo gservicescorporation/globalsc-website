@@ -30,7 +30,7 @@ export async function POST(req: Request) {
 
 	try {
 		const response = await resend.emails.send({
-			from: "Global Services Corporation <comercial@globalsc.ao>",
+			from: "Global Services Corporation <comercial@gservicescorporation.com>",
 			to: email,
 			subject: `Seu Ticket – ${eventName}`,
 			react: TicketEmail({

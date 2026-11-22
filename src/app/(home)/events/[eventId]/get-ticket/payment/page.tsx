@@ -3,9 +3,9 @@
 import { use, useEffect, useState } from "react"
 import Image from "next/image"
 import { ArrowLeft } from "lucide-react"
-import { EventDataInterface } from "@/app/interfaces/event-data"
+import type { EventRecord as EventDataInterface } from "@/types/event"
+import { useEventData } from "@/components/site/useEventData"
 import { toast, ToastContainer } from "react-toastify"
-import event from "@/app/data/events.json"
 import { formatPrice } from "@/app/utils/formatPrice"
 import { useRouter } from "next/navigation"
 import { SubmitHandler, useForm } from "react-hook-form"
@@ -102,8 +102,8 @@ export default function Payment({
 				chargeId,
 				fullname: watch("fullname"),
 				email: watch("email"),
-				eventName: eventData?.event.title,
-				eventDate: eventData?.event.startDate,
+				eventName: eventData?.title,
+				eventDate: eventData?.startDate,
 				ticketCode: `TCK-${chargeId.slice(0, 8).toUpperCase()}`,
 			})
 
@@ -137,15 +137,11 @@ export default function Payment({
 		if (total) setCartTotal(JSON.parse(total))
 	}, [])
 
+	const { event: loadedEvent, error: eventError } = useEventData(eventId)
 	useEffect(() => {
-		const ev = event.events.find((e) => e.id === eventId)
-
-		if (!ev) {
-			toast.error("Evento não encontrado")
-			return
-		}
-		setEventData(ev as EventDataInterface)
-	}, [eventId])
+		if (eventError) toast.error(eventError)
+		if (loadedEvent) setEventData(loadedEvent)
+	}, [loadedEvent, eventError])
 
 	const onSubmit: SubmitHandler<PaymentFormInputs> = async (data) => {
 		try {
@@ -162,7 +158,7 @@ export default function Payment({
 					fullname: data.fullname,
 					email: data.email,
 				},
-				eventId,
+				eventId: eventData?.id ?? eventId,
 			})
 
 			const { id, merchantTransactionId, reference } = response.data

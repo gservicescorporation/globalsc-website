@@ -1,42 +1,47 @@
-"use client";
+import HeroSlider from "@/components/site/HeroSlider"
+import EventsShowcase from "@/components/site/EventsShowcase"
+import { InsuranceHighlight } from "@/components/site/Insurance"
+import PartnersMarquee from "@/components/site/PartnersMarquee"
+import { getSiteContent } from "@/server/content"
+import { getPublishedEvents, splitByDate } from "@/server/events"
+import { getSlidesFor } from "@/server/slides"
+import About from "./components/About"
+import Academy from "./components/Academy"
+import Intro from "./components/Intro"
+import Services from "./components/Services"
 
-import "swiper/css";
-import "swiper/css/effect-fade";
-import ImpactNumbers from "./components/ImpactNumber";
-import LandingHero from "./components/Hero";
-import OurServices from "./components/OurServices";
-import OurAdvantages from "./components/OurAdvantages";
-import Image from "next/image";
-import OurAcademy from "./components/OurAcademy";
-import AboutUs from "./components/AboutUs";
-import RecentEvents from "../events/components/RecentEvents";
-import ContactUs from "./components/ContactUs";
+export const revalidate = 300
 
-export default function LandingPage() {
-  const imgPositions = ["top-[14%] right-0", "top-[59%] left-0"];
+export default async function LandingPage() {
+	const [slides, events, content] = await Promise.all([
+		getSlidesFor("home"),
+		getPublishedEvents(),
+		getSiteContent(),
+	])
+	const { upcoming, past } = splitByDate(events)
 
-  return (
-    <div className="min-h-screen bg-background text-foreground relative flex flex-col items-center gap-16">
-      {imgPositions.map((position, index) => (
-        <Image
-          key={index}
-          src="/logo-opacity.png"
-          alt="Footer Background"
-          width={2400}
-          height={1480}
-          className={`w-1/2 absolute ${position} pointer-events-none select-none z-0`}
-        />
-      ))}
-      <LandingHero />
-      <div className="flex flex-col gap-16 px-8 max-lg:p-0">
-        <ImpactNumbers />
-        <OurServices />
-        <OurAdvantages />
-        <OurAcademy />
-        <AboutUs />
-        <RecentEvents />
-        <ContactUs />
-      </div>
-    </div>
-  );
+	return (
+		<>
+			<HeroSlider slides={slides} />
+			{/* Produto principal logo a seguir ao topo */}
+			<InsuranceHighlight insurance={content.insurance} />
+			<Intro manifesto={content.home.manifesto} stats={content.home.stats} />
+			{content.services.length > 0 && <Services services={content.services} />}
+			<About story={content.about.story} advantages={content.about.advantages} showLink />
+			<Academy academy={content.academy} />
+			{events.length > 0 && (
+				<EventsShowcase
+					eyebrow="Eventos"
+					title={
+						<>
+							Os nossos <span className="serif-accent text-royal">eventos.</span>
+						</>
+					}
+					text="Fóruns, mesas redondas e encontros de networking com decisores do sector público e privado."
+					events={[...upcoming, ...past]}
+				/>
+			)}
+			<PartnersMarquee logos={content.partners.logos} title={content.partners.title} />
+		</>
+	)
 }

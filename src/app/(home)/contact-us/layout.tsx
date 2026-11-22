@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#ffffff",
+  themeColor: "#070b16",
 };
 
 export const metadata: Metadata = {
@@ -84,7 +84,7 @@ export default function ContactLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Global Services Corporation",
-            url: "https://www.globalsc-website-v2",
+            url: "https://www.globalsc.ao",
             logo: "https://www.globalsc.ao/logo/white.png",
             contactPoint: [
               {
